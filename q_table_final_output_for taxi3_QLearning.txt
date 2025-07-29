@@ -1,0 +1,537 @@
+=== Full Q-table Summary (All 500 States) ===
+
+State 0: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 1: Q-values [ 7.44059051  8.525849    7.44059051  8.525849    9.6220697  -0.474151  ] → Best Action: Pickup :)
+State 2: Q-values [11.84784175 12.97761793 11.84784175 12.97761793 14.11880599  3.97761793] → Best Action: Pickup :)
+State 3: Q-values [ 8.525849    9.6220697   8.525849    9.6220697  10.72936333  0.6220697 ] → Best Action: Pickup :)
+State 4: Q-values [ -3.38359962  -4.72188454   1.15318309  -3.41964262 -12.31103368
+ -13.73788696] → Best Action: East →
+State 5: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 6: Q-values [  1.15318294  -3.61365749  -2.02031     -5.71902797 -12.96346118
+ -15.18198435] → Best Action: South ↓
+State 7: Q-values [ 4.24949753 -2.79366615  1.86601338 -1.30624575 -9.32265034 -9.73620029] → Best Action: South ↓
+State 8: Q-values [ 9.6220697   8.07273082  7.12811575  8.16512386 -0.96124022 -0.97904407] → Best Action: South ↓
+State 9: Q-values [ 5.30252276  3.51436801  2.81391494  3.94301108 -5.13903726 -4.98000137] → Best Action: South ↓
+State 10: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 11: Q-values [ 6.36618461  4.25643517  3.56042712  4.92136955 -4.09741495 -5.30686068] → Best Action: South ↓
+State 12: Q-values [  0.45704771  -3.5363823    3.20700251  -2.02240062 -12.77458338
+ -12.78422209] → Best Action: East →
+State 13: Q-values [ 5.30252276 -4.21254101  0.38864422 -1.83055205 -8.58195536 -7.53422256] → Best Action: South ↓
+State 14: Q-values [  3.20700255  -0.4447562    1.08236291  -2.20999832 -13.10710351
+  -9.36489569] → Best Action: South ↓
+State 15: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 16: Q-values [17.612 18.8   17.612 18.8    9.8   20.   ] → Best Action: Dropoff ⬇
+State 17: Q-values [10.72936333  9.6220697  10.72936333  9.6220697   0.6220697   8.52584899] → Best Action: South ↓
+State 18: Q-values [15.2715212  14.11880599 12.97761793 14.11880599  5.11880599 12.97761793] → Best Action: South ↓
+State 19: Q-values [11.84784175 10.72936333 11.84784175 10.72936333  1.72936333  9.6220697 ] → Best Action: South ↓
+State 20: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 21: Q-values [ 6.36474851  7.42699869  7.43037068  8.525849   -1.56282455 -1.57368136] → Best Action: West ←
+State 22: Q-values [10.72918471 11.84771986 11.84760568 12.97761793  2.84777759  2.84758114] → Best Action: West ←
+State 23: Q-values [ 7.43955942  8.52422168  8.52362179  9.6220697  -0.47591072 -0.48201436] → Best Action: West ←
+State 24: Q-values [  2.17493253  -1.28516318  -0.4459296   -4.64162319 -10.12334828
+ -11.60679887] → Best Action: South ↓
+State 25: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 26: Q-values [  2.17493252  -1.0002459   -4.28508012  -3.54173518 -11.87971712
+ -11.1164291 ] → Best Action: South ↓
+State 27: Q-values [ 5.30252276  0.82254679  2.45740242 -1.03430333 -8.73693068 -6.66434522] → Best Action: South ↓
+State 28: Q-values [ 8.525849    6.0554091   6.36928269  8.19131424 -2.3897733  -2.67464267] → Best Action: South ↓
+State 29: Q-values [ 4.24949753  2.8520232   2.98783711  3.90219224 -6.02123823 -5.99744576] → Best Action: South ↓
+State 30: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 31: Q-values [ 5.30252276  2.09362214  3.68644435  4.92482693 -4.89177107 -5.32147995] → Best Action: South ↓
+State 32: Q-values [ 4.24949753  2.9520537   1.99322819 -0.31703363 -5.98710058 -6.22776304] → Best Action: South ↓
+State 33: Q-values [  6.36618445   0.59760321   0.09968654   0.26474926  -8.94174848
+ -13.12481703] → Best Action: South ↓
+State 34: Q-values [ 4.24949751  0.5858565  -0.55495433 -1.95740396 -7.48219702 -8.96181237] → Best Action: South ↓
+State 35: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 36: Q-values [16.43588 17.612   17.612   18.8      8.612    8.612  ] → Best Action: West ←
+State 37: Q-values [11.84784175 10.72205348 10.71774844  9.62082645  1.71600978  1.72454775] → Best Action: South ↓
+State 38: Q-values [14.11880013 12.97748127 12.97755351 14.11880599  3.97751972  3.97760117] → Best Action: West ←
+State 39: Q-values [12.97761793 11.84630696 11.84750361 10.7290819   2.84769936  2.84778005] → Best Action: South ↓
+State 40: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 41: Q-values [  3.20700254  -1.57484023  -1.163524    -1.7358638  -11.24111553
+  -9.80936419] → Best Action: South ↓
+State 42: Q-values [ 7.44059051  6.13722835  4.83308993  5.46752333 -2.99806916 -2.81905792] → Best Action: South ↓
+State 43: Q-values [ 4.24949752 -3.81887506 -0.26684238  0.36814616 -7.23698768 -8.6963893 ] → Best Action: South ↓
+State 44: Q-values [ 5.22020947  6.26563963  7.44059051  6.32229479 -2.66861447 -2.66198792] → Best Action: East →
+State 45: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 46: Q-values [ 4.85765462  5.60577883  7.44059051  5.14613732 -2.9798402  -2.98387809] → Best Action: East →
+State 47: Q-values [ 8.51140637  9.61865997 10.72936333  9.61674375  0.61932381  0.61910363] → Best Action: East →
+State 48: Q-values [ 7.44059051  6.24034363  4.13788168  6.18419772 -2.99629288 -2.90422335] → Best Action: South ↓
+State 49: Q-values [  3.20700255  -2.08197864  -1.13316506  -1.18081334  -9.2091261
+ -11.44747503] → Best Action: South ↓
+State 50: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 51: Q-values [ 4.24949753  2.57546091  1.20090297  1.94095851 -7.79819533 -7.10475268] → Best Action: South ↓
+State 52: Q-values [ 5.30252276  1.70786248  1.35506843  1.55829762 -6.62279773 -6.27810365] → Best Action: South ↓
+State 53: Q-values [ 7.44059051  4.9095134   3.98255836  2.72609882 -4.61468573 -5.0801146 ] → Best Action: South ↓
+State 54: Q-values [ 5.30252276  2.92943232  3.47640093  3.09548685 -5.29003986 -5.32732035] → Best Action: South ↓
+State 55: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 56: Q-values [12.97761793 11.84783624 10.72926283 11.84783719  2.84783472  2.84783856] → Best Action: South ↓
+State 57: Q-values [15.27152061 16.43587993 17.612      16.43587942  7.43587962  7.43587989] → Best Action: East →
+State 58: Q-values [12.97761769 11.81139964 10.50674975 11.79092333  2.75966283  2.80615118] → Best Action: South ↓
+State 59: Q-values [14.11880599 12.96656215 14.10330016 12.9738605   3.97300649  3.96816164] → Best Action: South ↓
+State 60: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 61: Q-values [  2.17493242  -2.79731126  -5.8408468   -0.53439966 -12.88386395
+ -11.13546536] → Best Action: South ↓
+State 62: Q-values [ 6.36618461  5.12205205  3.36841012  6.02690857 -4.2536144  -4.1513726 ] → Best Action: South ↓
+State 63: Q-values [ 3.20700255 -0.17511157 -2.49557711  2.23376817 -8.55283418 -8.66739383] → Best Action: South ↓
+State 64: Q-values [ 6.3619887   7.43745491  8.525849    6.36000981 -1.56038351 -1.56187606] → Best Action: East →
+State 65: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 66: Q-values [ 6.36226571  7.4400873   8.525849    6.34592275 -1.56748519 -1.56092782] → Best Action: East →
+State 67: Q-values [ 9.62198591 10.7293423  11.84784175  9.62205298  1.72935806  1.72934365] → Best Action: East →
+State 68: Q-values [ 3.46188395  2.69798775  1.25000682  6.3661846  -7.67185598 -7.3427781 ] → Best Action: West ←
+State 69: Q-values [ 2.17493253  0.01045563 -1.42285509  0.01236276 -8.58597537 -8.6363179 ] → Best Action: South ↓
+State 70: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 71: Q-values [ 3.20700256  0.20107553  0.15724861  2.7022243  -7.67702411 -8.51832107] → Best Action: South ↓
+State 72: Q-values [ 6.36618444  3.5754164   2.83493554  1.97472767 -5.4786718  -5.59764458] → Best Action: South ↓
+State 73: Q-values [ 8.525849    4.04500771  3.61142502  3.6877841  -3.87486271 -4.11915935] → Best Action: South ↓
+State 74: Q-values [ 6.36618461  4.39273609  3.04851123  3.8528553  -4.06016856 -4.40898165] → Best Action: South ↓
+State 75: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 76: Q-values [11.84753701 10.72679817  9.62184509 11.84784175  1.72921424  1.72805327] → Best Action: West ←
+State 77: Q-values [16.43588 17.612   18.8     16.43588  8.612    8.612  ] → Best Action: East →
+State 78: Q-values [11.84784175 10.72548071  9.61315158 11.83226371  1.72204115  1.72467035] → Best Action: South ↓
+State 79: Q-values [15.2715212  14.11758144 12.97744221 12.97697385  5.11867469  5.11781415] → Best Action: South ↓
+State 80: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 81: Q-values [  1.15318318  -7.48535758  -3.3607251   -5.07787608 -14.50964801
+ -13.68366987] → Best Action: South ↓
+State 82: Q-values [ 3.16777311  2.28528589  2.37684646  5.30252273 -9.20479699 -6.85035665] → Best Action: West ←
+State 83: Q-values [  2.17493247  -2.74175967  -2.98377719   0.27902432 -11.56201286
+ -11.90388038] → Best Action: South ↓
+State 84: Q-values [ 7.44059051  8.525849    8.525849    7.44059051  9.6220697  -0.474151  ] → Best Action: Pickup :)
+State 85: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 86: Q-values [ 7.44059051  8.525849    8.525849    7.44059051  9.6220697  -0.474151  ] → Best Action: Pickup :)
+State 87: Q-values [10.72936333 11.84784175 11.84784175 10.72936333 12.97761793  2.84784175] → Best Action: Pickup :)
+State 88: Q-values [ 5.30252261  0.40695809 -0.56403432  1.32914957 -9.50654691 -8.06807736] → Best Action: South ↓
+State 89: Q-values [  1.15318302  -4.06985908  -2.4768852   -0.82885375 -11.58827699
+ -11.96492992] → Best Action: South ↓
+State 90: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 91: Q-values [  0.71663643  -2.48893716  -1.08534219   2.17493252 -12.94415719
+ -12.42208956] → Best Action: West ←
+State 92: Q-values [ 5.30252276  2.56877847  2.52539556  3.62405838 -6.65584442 -7.71201255] → Best Action: South ↓
+State 93: Q-values [ 7.4405905   2.63678268  3.65895376  4.42268733 -4.6064165  -5.80807657] → Best Action: South ↓
+State 94: Q-values [ 3.71301392  2.90995202  2.75405441  5.30252275 -7.89303711 -7.12014515] → Best Action: West ←
+State 95: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 96: Q-values [10.72936333  9.6220697   9.6220697  10.72936333  0.6220697   8.525849  ] → Best Action: South ↓
+State 97: Q-values [17.612 18.8   18.8   17.612  9.8   20.   ] → Best Action: Dropoff ⬇
+State 98: Q-values [10.72936333  9.6220697   9.6220697  10.72936333  0.6220697   8.525849  ] → Best Action: South ↓
+State 99: Q-values [14.11880599 12.97761793 12.97761793 14.11880599  3.97761793 11.84784175] → Best Action: South ↓
+State 100: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 101: Q-values [ 6.36618457  8.525849    6.36618461  7.44059051 -1.55940949 -1.55940949] → Best Action: North ↑
+State 102: Q-values [10.72936333 12.97761793 10.72936333 11.84784175  2.84784175  2.84784175] → Best Action: North ↑
+State 103: Q-values [ 7.44059051  9.6220697   7.44059051  8.525849   -0.474151   -0.474151  ] → Best Action: North ↑
+State 104: Q-values [  2.17493253  -5.78231515  -0.32161663  -1.18800968 -11.17517525
+ -10.55093476] → Best Action: South ↓
+State 105: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 106: Q-values [ 2.17493253 -1.58330102  1.21478265 -0.61029379 -8.67694735 -8.39520674] → Best Action: South ↓
+State 107: Q-values [ 4.75805693  1.55435861  5.30252276  3.82965218 -5.41305739 -5.30804376] → Best Action: East →
+State 108: Q-values [10.72936333  8.52190077  8.51705946  9.61819692  0.61856442  0.62051335] → Best Action: South ↓
+State 109: Q-values [ 6.36618461  4.24076033  4.24594695  5.29945449 -3.69883338 -3.70438734] → Best Action: South ↓
+State 110: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 111: Q-values [ 7.44059051  5.27332071  5.30017167  6.36541233 -2.63486911 -2.63528173] → Best Action: South ↓
+State 112: Q-values [ 3.36060958 -1.0235089   4.24949753  1.46612094 -8.06369927 -7.66157983] → Best Action: East →
+State 113: Q-values [ 6.36618461  3.36971966  5.46433999  4.00120337 -4.59821762 -4.33095414] → Best Action: South ↓
+State 114: Q-values [ 4.24949753 -0.11290256  3.90945228  2.60124725 -7.90766503 -6.31056754] → Best Action: South ↓
+State 115: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 116: Q-values [16.43588 18.8     16.43588 17.612    8.612    8.612  ] → Best Action: North ↑
+State 117: Q-values [11.84784175  9.6220697  11.84784175 10.72936333  1.72936333  1.72936333] → Best Action: South ↓
+State 118: Q-values [16.43588    14.11880599 14.11880599 15.2715212   6.2715212   6.2715212 ] → Best Action: South ↓
+State 119: Q-values [12.97761793 10.72936333 12.97761793 11.84784175  2.84784175  2.84784175] → Best Action: South ↓
+State 120: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 121: Q-values [ 5.30252248  7.44059022  6.36618452  7.44059051 -2.63381614 -2.63381565] → Best Action: West ←
+State 122: Q-values [ 9.62206968 11.84784174 10.72936331 11.84784175  1.72936332  1.72936333] → Best Action: West ←
+State 123: Q-values [ 6.36618371  8.52584892  7.44059001  8.525849   -1.55940953 -1.55941038] → Best Action: West ←
+State 124: Q-values [ 3.20700256  0.35373164  1.86267128  0.20831133 -6.99421944 -7.33092745] → Best Action: South ↓
+State 125: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 126: Q-values [ 3.20700256 -0.51997731  1.66719019  0.52392941 -7.68982453 -7.35959876] → Best Action: South ↓
+State 127: Q-values [ 6.36618461  4.05138192  5.27592615  4.19255581 -3.74612153 -3.74112735] → Best Action: South ↓
+State 128: Q-values [ 9.6220697   7.3868142   8.52315003  9.60151011 -0.48240823 -0.47999171] → Best Action: South ↓
+State 129: Q-values [ 5.30252276  3.2057839   4.24592195  5.30042529 -4.75119452 -4.75357804] → Best Action: South ↓
+State 130: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 131: Q-values [ 6.36618461  4.2057223   5.29488381  6.36439054 -3.7019734  -3.69936778] → Best Action: South ↓
+State 132: Q-values [ 5.30252276  3.19410534  4.22241956  3.18762809 -4.76361327 -4.77956772] → Best Action: South ↓
+State 133: Q-values [ 7.44059051  3.12668494  5.61471453  4.05425446 -3.46482668 -3.56741348] → Best Action: South ↓
+State 134: Q-values [ 5.30252276  2.91369237  4.1781164   2.85607351 -4.9117304  -4.90602464] → Best Action: South ↓
+State 135: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 136: Q-values [15.2715212 17.612     16.43588   17.612      7.43588    7.43588  ] → Best Action: North ↑
+State 137: Q-values [12.97761793 10.72935767 11.84784135 10.72936281  2.84784173  2.84784164] → Best Action: South ↓
+State 138: Q-values [15.2715212  12.9776179  14.11880598 15.2715212   5.11880598  5.11880598] → Best Action: West ←
+State 139: Q-values [14.11880599 11.84784174 12.97761791 11.84784174  3.97761793  3.97761791] → Best Action: South ↓
+State 140: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 141: Q-values [ 4.24949753  1.20738122  1.71118702  3.17337647 -5.85628082 -6.07291116] → Best Action: South ↓
+State 142: Q-values [ 8.525849    6.36468118  6.36499556  7.43954204 -1.55953968 -1.56000249] → Best Action: South ↓
+State 143: Q-values [ 5.30252276  2.50669558  2.89290446  4.1399904  -5.01953954 -5.29777815] → Best Action: South ↓
+State 144: Q-values [ 3.91148445  6.36618461  6.17337833  5.19453537 -4.0010392  -3.98240043] → Best Action: North ↑
+State 145: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 146: Q-values [ 3.96658687  6.24576032  6.36618461  5.20144182 -3.75925258 -3.83756977] → Best Action: East →
+State 147: Q-values [ 7.39360196  9.6220697   9.57073809  8.48316276 -0.52323331 -0.50560483] → Best Action: North ↑
+State 148: Q-values [ 8.525849    6.36094622  6.31845666  7.43514559 -1.56397812 -1.56523723] → Best Action: South ↓
+State 149: Q-values [ 4.24949753  1.9762838   2.15016448  3.1812511  -5.83647328 -5.81355506] → Best Action: South ↓
+State 150: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 151: Q-values [ 5.30252276  3.07851198  3.08864256  4.23063008 -4.76930618 -4.7706464 ] → Best Action: South ↓
+State 152: Q-values [ 6.36618461  4.08761532  6.29307793  5.28910643 -3.71389743 -3.74346464] → Best Action: South ↓
+State 153: Q-values [ 8.525849    6.13468422  8.50738191  7.410158   -1.62404346 -1.60008703] → Best Action: South ↓
+State 154: Q-values [ 6.36618461  4.12840097  6.34899266  5.27077108 -3.70916718 -3.73339315] → Best Action: South ↓
+State 155: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 156: Q-values [14.11880599 11.84784175 11.84784175 12.97761793  3.97761793  3.97761793] → Best Action: South ↓
+State 157: Q-values [14.11880599 16.43588    16.43588    15.2715212   6.2715212   6.2715212 ] → Best Action: North ↑
+State 158: Q-values [14.11880599 11.84782646 11.84783652 12.97760766  3.97757526  3.97761402] → Best Action: South ↓
+State 159: Q-values [15.2715212  12.97761751 15.27152119 14.11880598  5.11880598  5.11880595] → Best Action: South ↓
+State 160: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 161: Q-values [ 3.20700256e+00 -3.86164125e-03 -1.06222973e-01  2.99133404e+00
+ -7.28097469e+00 -7.13871820e+00] → Best Action: South ↓
+State 162: Q-values [ 7.4343138   5.27650869  5.11087284  7.44059051 -2.63993063 -2.65148712] → Best Action: West ←
+State 163: Q-values [ 4.24949753  2.04614866  2.04565777  4.16846912 -5.97830629 -5.81268135] → Best Action: South ↓
+State 164: Q-values [ 5.28488275  7.42301433  7.44059051  5.22295508 -2.68394205 -2.66424194] → Best Action: East →
+State 165: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 166: Q-values [ 5.30252032  7.44058997  7.44059051  5.30251447 -2.63381578 -2.63381792] → Best Action: East →
+State 167: Q-values [ 8.52584864 10.72936288 10.72936333  8.52584455  0.6220695   0.62206935] → Best Action: East →
+State 168: Q-values [ 7.09463623  4.99040975  4.15980157  7.44059051 -3.27278833 -2.9401054 ] → Best Action: West ←
+State 169: Q-values [ 3.20700256  1.10856403  1.10628923  3.18761479 -6.83872415 -6.8306079 ] → Best Action: South ↓
+State 170: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 171: Q-values [ 4.24949753  1.90508901  2.0106118   4.21302979 -5.86374958 -5.89191267] → Best Action: South ↓
+State 172: Q-values [ 7.44059051  4.99775735  5.21385165  5.26072536 -2.67368894 -2.67363062] → Best Action: South ↓
+State 173: Q-values [ 9.6220697   7.22464359  7.39863978  7.39991597 -0.55200322 -0.53710997] → Best Action: South ↓
+State 174: Q-values [ 7.44059051  5.28913102  5.26176661  5.28940655 -2.64149981 -2.64168658] → Best Action: South ↓
+State 175: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 176: Q-values [12.97761793 10.72936333 10.72936333 12.97761793  2.84784175  2.84784175] → Best Action: West ←
+State 177: Q-values [15.2715212 17.612     17.612     15.2715212  7.43588    7.43588  ] → Best Action: North ↑
+State 178: Q-values [12.97761793 10.72933354 10.72936302 12.97761567  2.84783861  2.84784138] → Best Action: South ↓
+State 179: Q-values [16.43588    14.11880598 14.11880599 14.11880599  6.2715212   6.2715212 ] → Best Action: South ↓
+State 180: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 181: Q-values [ 2.17493253 -3.38983662  0.255377    1.5146797  -8.59114693 -8.32305166] → Best Action: South ↓
+State 182: Q-values [ 4.81081303  1.42741888  3.06106331  6.3661846  -8.18887692 -6.3440785 ] → Best Action: West ←
+State 183: Q-values [ 2.46072841 -0.56734723  1.00850186  3.20700256 -8.92662173 -7.66754315] → Best Action: West ←
+State 184: Q-values [ 6.36618458  8.525849    7.44059051  6.36618453 -1.55940949 -1.55940949] → Best Action: North ↑
+State 185: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 186: Q-values [ 6.36618459  8.525849    7.4405905   6.3661846  -1.55940949 -1.5594095 ] → Best Action: North ↑
+State 187: Q-values [ 9.62206969 11.84784175 10.72936333  9.6220697   1.72936333  1.72936333] → Best Action: North ↑
+State 188: Q-values [ 5.35520438  1.41146458  1.25266563  6.36618461 -6.72205278 -5.92434739] → Best Action: West ←
+State 189: Q-values [ 1.96974683 -0.91830099  0.39252507  2.17493253 -8.97720054 -8.39322296] → Best Action: West ←
+State 190: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 191: Q-values [ 3.20700256 -1.37391557  0.34190383  2.18915551 -8.13124898 -7.73588348] → Best Action: South ↓
+State 192: Q-values [ 6.36618461  3.9308398   5.03479481  6.14817484 -4.15607034 -3.95201764] → Best Action: South ↓
+State 193: Q-values [ 8.525849    5.87734003  7.29217419  8.26528246 -2.23954583 -1.90248076] → Best Action: South ↓
+State 194: Q-values [ 6.36618461  3.46598226  4.60733292  5.56936725 -4.41842257 -4.57584088] → Best Action: South ↓
+State 195: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 196: Q-values [11.84784175  9.6220697  10.72936333 11.84784175  1.72936333  1.72936333] → Best Action: West ←
+State 197: Q-values [16.43588 18.8     17.612   16.43588  8.612    8.612  ] → Best Action: North ↑
+State 198: Q-values [11.84784175  9.6220697  10.72936333 11.84784175  1.72936333  1.72936333] → Best Action: South ↓
+State 199: Q-values [15.2715212  12.97761793 14.11880599 15.2715212   5.11880599  5.11880599] → Best Action: South ↓
+State 200: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 201: Q-values [ 5.27764787  7.44059051  5.28959551  6.36197973 -2.63533647 -2.638154  ] → Best Action: North ↑
+State 202: Q-values [ 9.61777301 11.84784175  9.62173092 10.72927687  1.72915983  1.7292316 ] → Best Action: North ↑
+State 203: Q-values [ 6.34910754  8.525849    6.365006    7.43692151 -1.56244377 -1.55984651] → Best Action: North ↑
+State 204: Q-values [ 0.80695595  1.02927613  3.20700256  2.07107116 -7.07852266 -6.89151255] → Best Action: East →
+State 205: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 206: Q-values [ 1.02631113  0.93653649  3.20700256  2.05189073 -7.06164944 -6.90072862] → Best Action: East →
+State 207: Q-values [ 4.11648109  3.60288021  6.36618461  5.15086929 -3.96779089 -4.0496561 ] → Best Action: East →
+State 208: Q-values [11.84784175  9.6220697   9.6220697  10.72936333  1.72936333  1.72936333] → Best Action: South ↓
+State 209: Q-values [ 7.44059051  5.30252276  5.30252276  6.36618461 -2.63381539 -2.63381539] → Best Action: South ↓
+State 210: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 211: Q-values [ 8.525849    6.36618461  6.36618461  7.44059051 -1.55940949 -1.55940949] → Best Action: South ↓
+State 212: Q-values [ 2.86222652  2.64557682  5.30252276  4.05104508 -5.02322771 -5.20650294] → Best Action: East →
+State 213: Q-values [ 5.21968603  5.16097614  7.44059051  6.25603315 -2.66464316 -2.66505908] → Best Action: East →
+State 214: Q-values [ 3.20174006  3.17535199  5.30252276  4.24623669 -4.75271205 -4.75487875] → Best Action: East →
+State 215: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 216: Q-values [15.2715212 17.612     15.2715212 16.43588    7.43588    7.43588  ] → Best Action: North ↑
+State 217: Q-values [10.72936333 10.72936333 12.97761793 11.84784175  2.84784175  2.84784175] → Best Action: East →
+State 218: Q-values [17.612     15.2715212 15.2715212 16.43588    7.43588    7.43588  ] → Best Action: South ↓
+State 219: Q-values [11.84784175 11.84784175 14.11880599 12.97761793  3.97761793  3.97761793] → Best Action: East →
+State 220: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 221: Q-values [ 4.2494972   6.36618461  4.24949455  6.3661819  -3.69747747 -3.6974783 ] → Best Action: North ↑
+State 222: Q-values [ 8.52584899 10.72936333  8.52584899 10.72936323  0.62206969  0.62206968] → Best Action: North ↑
+State 223: Q-values [ 5.3025213   7.44059051  5.30252254  7.44059025 -2.63381597 -2.63381542] → Best Action: North ↑
+State 224: Q-values [ 2.16748345  2.17360717  4.24949753  2.17353555 -5.79420958 -5.7947407 ] → Best Action: East →
+State 225: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 226: Q-values [ 2.14443804  2.16952377  4.24949753  2.16305025 -5.81800277 -5.80235839] → Best Action: East →
+State 227: Q-values [ 5.29772402  5.30209856  7.44059051  5.30149475 -2.63513187 -2.63433575] → Best Action: East →
+State 228: Q-values [ 8.525849    8.525849    8.52584899 10.72936333  0.6220697   0.6220697 ] → Best Action: West ←
+State 229: Q-values [ 4.24949753  4.24949753  4.24949753  6.36618461 -3.69747724 -3.69747724] → Best Action: West ←
+State 230: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 231: Q-values [ 5.30252276  5.30252276  5.30252276  7.44059051 -2.63381539 -2.63381539] → Best Action: West ←
+State 232: Q-values [ 4.24939446  4.2494717   6.36618461  4.24939893 -3.69749939 -3.69749124] → Best Action: East →
+State 233: Q-values [ 6.34826642  6.3434681   8.525849    6.35428707 -1.5603358  -1.56087589] → Best Action: East →
+State 234: Q-values [ 4.24947553  4.24948055  6.36618461  4.2494367  -3.6974875  -3.69747751] → Best Action: East →
+State 235: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 236: Q-values [14.11880599 16.43588    14.11880599 16.43588     6.2715212   6.2715212 ] → Best Action: North ↑
+State 237: Q-values [11.84784175 11.84784175 14.11880599 11.84784175  3.97761793  3.97761793] → Best Action: East →
+State 238: Q-values [14.11880599 14.11880599 14.11880599 16.43588     6.2715212   6.2715212 ] → Best Action: West ←
+State 239: Q-values [12.97761793 12.97761793 15.2715212  12.97761793  5.11880599  5.11880599] → Best Action: East →
+State 240: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 241: Q-values [ 3.20700079  3.20698984  3.20700196  5.30252276 -4.75050718 -4.75050258] → Best Action: West ←
+State 242: Q-values [ 7.44059042  7.44059027  7.44059041  9.6220697  -0.47415106 -0.47415109] → Best Action: West ←
+State 243: Q-values [ 4.24948304  4.24941585  4.24949673  6.36618461 -3.69748494 -3.69748119] → Best Action: West ←
+State 244: Q-values [ 3.20656446  5.30241483  5.30252276  3.20671871 -4.75059555 -4.75068437] → Best Action: East →
+State 245: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 246: Q-values [ 3.20613029  5.3022502   5.30252276  3.20685254 -4.75076033 -4.75058387] → Best Action: East →
+State 247: Q-values [ 6.36603271  8.52578975  8.525849    6.3661492  -1.55940998 -1.55941079] → Best Action: East →
+State 248: Q-values [ 7.44056673  7.44058783  7.44057875  9.6220697  -0.47415233 -0.47415648] → Best Action: West ←
+State 249: Q-values [ 3.20700239  3.2070024   3.20700248  5.30252276 -4.75050247 -4.75050256] → Best Action: West ←
+State 250: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 251: Q-values [ 4.24949457  4.2494972   4.24949719  6.36618461 -3.69747799 -3.69747731] → Best Action: West ←
+State 252: Q-values [ 5.30252269  5.30252263  7.44059051  5.30252255 -2.63381548 -2.63381548] → Best Action: East →
+State 253: Q-values [ 7.4405878   7.44058447  9.6220697   7.44058785 -0.47415207 -0.4741512 ] → Best Action: East →
+State 254: Q-values [ 5.30252059  5.30252223  7.44059051  5.30252243 -2.63381804 -2.63381691] → Best Action: East →
+State 255: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 256: Q-values [12.97761793 12.97761793 12.97761793 15.2715212   5.11880599  5.11880599] → Best Action: West ←
+State 257: Q-values [12.97761793 15.2715212  15.2715212  12.97761793  5.11880599  5.11880599] → Best Action: North ↑
+State 258: Q-values [12.97761793 12.97761793 12.97761793 15.2715212   5.11880599  5.11880599] → Best Action: West ←
+State 259: Q-values [14.11880599 14.11880599 16.43588    14.11880599  6.2715212   6.2715212 ] → Best Action: East →
+State 260: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 261: Q-values [ 2.17448388  2.1744062   2.17453371  4.24949753 -5.79332857 -5.79425091] → Best Action: West ←
+State 262: Q-values [ 6.36411619  6.36499879  6.36109137  8.525849   -1.56237676 -1.55986391] → Best Action: West ←
+State 263: Q-values [ 3.20664715  3.20680348  3.20405124  5.30252276 -4.75059768 -4.75068072] → Best Action: West ←
+State 264: Q-values [ 4.24946659  6.36617829  6.36618461  4.24945319 -3.69748105 -3.69749816] → Best Action: East →
+State 265: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 266: Q-values [ 4.24930379  6.36618461  6.36618228  4.24948661 -3.69748067 -3.69753603] → Best Action: North ↑
+State 267: Q-values [ 7.44058574  9.6220697   9.62206914  7.44058843 -0.47415125 -0.47415213] → Best Action: North ↑
+State 268: Q-values [ 6.31546023  6.25679443  6.23492582  8.525849   -1.58433352 -1.58683373] → Best Action: West ←
+State 269: Q-values [ 2.17474666  2.1747542   2.17477438  4.24949753 -5.79304899 -5.79306621] → Best Action: West ←
+State 270: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 271: Q-values [ 3.20682242  3.20681851  3.20699501  5.30252276 -4.75051473 -4.75057103] → Best Action: West ←
+State 272: Q-values [ 8.525849    6.36618459  6.36618461  6.36618461 -1.55940949 -1.55940949] → Best Action: South ↓
+State 273: Q-values [10.72936333  8.52584898  8.52584898  8.52584899  0.62206969  0.6220697 ] → Best Action: South ↓
+State 274: Q-values [ 8.525849    6.3661846   6.36618459  6.36618461 -1.55940949 -1.55940949] → Best Action: South ↓
+State 275: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 276: Q-values [11.84784175 11.84784175 11.84784175 14.11880599  3.97761793  3.97761793] → Best Action: West ←
+State 277: Q-values [14.11880599 16.43588    16.43588    14.11880599  6.2715212   6.2715212 ] → Best Action: North ↑
+State 278: Q-values [11.84784175 11.84784175 11.84784175 14.11880599  3.97761793  3.97761793] → Best Action: West ←
+State 279: Q-values [17.612     15.2715212 15.2715212 15.2715212  7.43588    7.43588  ] → Best Action: South ↓
+State 280: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 281: Q-values [ 0.47990756  0.75546023  2.00285005  3.20700256 -6.85749461 -6.99639097] → Best Action: West ←
+State 282: Q-values [ 3.42079238  3.08916675  5.58546904  7.44059051 -3.20941751 -3.5155011 ] → Best Action: West ←
+State 283: Q-values [ 0.80812885  1.02021438  2.21463074  4.24949753 -6.22521557 -6.59686989] → Best Action: West ←
+State 284: Q-values [ 5.30252207  7.44059051  6.36618456  5.30251815 -2.63381554 -2.63381591] → Best Action: North ↑
+State 285: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 286: Q-values [ 5.28662283  7.44059051  6.34884636  5.28659312 -2.63518339 -2.64589701] → Best Action: North ↑
+State 287: Q-values [ 8.52461292 10.72936333  9.62157542  8.52515873  0.62159108  0.62197141] → Best Action: North ↑
+State 288: Q-values [ 1.20474308  3.48832303  2.38316275  7.44059051 -5.69114142 -5.65875321] → Best Action: West ←
+State 289: Q-values [ 0.87925066  0.82614209  2.12936533  3.20700256 -6.85625433 -6.8721302 ] → Best Action: West ←
+State 290: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 291: Q-values [ 2.16881116  2.13661799  3.19821287  4.24949753 -5.79453445 -5.79979115] → Best Action: West ←
+State 292: Q-values [ 7.43916847  5.28348114  6.3610531   7.44059051 -2.63515303 -2.64070202] → Best Action: West ←
+State 293: Q-values [ 9.61946521  7.42289057  8.52055978  9.6220697  -0.47906068 -0.47540928] → Best Action: West ←
+State 294: Q-values [ 7.43942557  5.27640613  6.33655283  7.44059051 -2.64336097 -2.64040646] → Best Action: West ←
+State 295: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 296: Q-values [10.72927733 10.72923649 11.84782575 12.97761793  2.84772341  2.84768676] → Best Action: West ←
+State 297: Q-values [15.2715212 17.612     16.43588   15.2715212  7.43588    7.43588  ] → Best Action: North ↑
+State 298: Q-values [10.72936333 10.72936333 11.84784175 12.97761793  2.84784175  2.84784175] → Best Action: West ←
+State 299: Q-values [16.43588    14.11880599 15.2715212  16.43588     6.2715212   6.2715212 ] → Best Action: South ↓
+State 300: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 301: Q-values [ 3.19523252  6.36618461  4.13346105  5.00420753 -4.31811152 -4.35229325] → Best Action: North ↑
+State 302: Q-values [ 7.84499286 10.72936333  9.25891601  8.88161021  0.24337194 -0.08784738] → Best Action: North ↑
+State 303: Q-values [ 4.31457774  7.44059051  5.62877295  5.92570168 -3.05401121 -2.99633348] → Best Action: North ↑
+State 304: Q-values [-1.75660344  2.17493253 -1.00746013 -0.08055368 -8.79255367 -9.25389158] → Best Action: North ↑
+State 305: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 306: Q-values [-1.41369164  2.17493253  0.015725    0.36590283 -8.40446142 -8.7561919 ] → Best Action: North ↑
+State 307: Q-values [ 1.72504549  5.30252276  2.93864926  3.49739635 -5.36682972 -5.85479568] → Best Action: North ↑
+State 308: Q-values [12.97761793 10.72936333 11.84784175 11.84784175  2.84784175  2.84784175] → Best Action: South ↓
+State 309: Q-values [ 8.525849    6.36618461  7.44059051  7.44059051 -1.55940949 -1.55940949] → Best Action: South ↓
+State 310: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 311: Q-values [ 9.6220697   7.44059051  8.525849    8.525849   -0.474151   -0.474151  ] → Best Action: South ↓
+State 312: Q-values [ 1.00030572  4.24949753  1.2263899   1.88236431 -6.72045555 -6.65988506] → Best Action: North ↑
+State 313: Q-values [ 1.62669285  6.36618461  2.03657269  4.37338081 -4.76231102 -4.91936298] → Best Action: North ↑
+State 314: Q-values [-0.07319928  4.24949753  2.21878929  2.52072936 -6.14428974 -6.03119718] → Best Action: North ↑
+State 315: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 316: Q-values [14.11880599 16.43588    15.2715212  15.2715212   6.2715212   6.2715212 ] → Best Action: North ↑
+State 317: Q-values [ 9.6220697  11.84784175 10.72936333 10.72936333  1.72936333  1.72936333] → Best Action: North ↑
+State 318: Q-values [18.8     16.43588 17.612   17.612    8.612    8.612  ] → Best Action: South ↓
+State 319: Q-values [10.72936333 12.97761793 11.84784175 11.84784175  2.84784175  2.84784175] → Best Action: North ↑
+State 320: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 321: Q-values [ 3.02514246  5.30252276  3.18004348  4.2042705  -4.78693384 -4.83561038] → Best Action: North ↑
+State 322: Q-values [ 7.28123762  9.6220697   7.43558497  8.50437839 -0.49812031 -0.47730578] → Best Action: North ↑
+State 323: Q-values [ 4.22686229  6.36618461  4.23172996  5.24106442 -3.82420701 -3.74695306] → Best Action: North ↑
+State 324: Q-values [ 0.19240711  3.20700256  2.52583562  1.1809242  -9.09831478 -8.11477018] → Best Action: North ↑
+State 325: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 326: Q-values [ -3.91126424   1.9829963    3.20700256  -0.13364124 -10.98810134
+  -9.60566693] → Best Action: East →
+State 327: Q-values [ 2.26850473  6.36618461  5.68595574  3.87208127 -4.98729355 -5.34357505] → Best Action: North ↑
+State 328: Q-values [ 7.44005516  9.6220697   7.43926515  8.52357536 -0.47642563 -0.47537098] → Best Action: North ↑
+State 329: Q-values [ 3.18276298  5.30252276  3.18818319  4.2061023  -4.76595658 -4.752859  ] → Best Action: North ↑
+State 330: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 331: Q-values [ 4.24022276  6.36618461  4.24536639  5.28699945 -3.70505265 -3.70041907] → Best Action: North ↑
+State 332: Q-values [ 2.46792339  5.30252276  5.24119808  4.16989523 -5.06624027 -4.94747511] → Best Action: North ↑
+State 333: Q-values [ 3.28339087  7.14682221  7.44059051  5.10995935 -3.41919068 -3.72026872] → Best Action: East →
+State 334: Q-values [ 2.87092745  5.30252276  5.11487883  4.03104691 -4.82138041 -4.80407563] → Best Action: North ↑
+State 335: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 336: Q-values [12.97755663 15.2715212  12.97760562 14.11880202  5.11880519  5.11880159] → Best Action: North ↑
+State 337: Q-values [10.72859748 12.97761793 12.97760672 11.84781911  2.8478377   2.84782809] → Best Action: North ↑
+State 338: Q-values [12.97761074 15.2715212  12.97761495 14.11880011  5.11880489  5.11880571] → Best Action: North ↑
+State 339: Q-values [11.84782185 14.11880599 14.11880398 12.97761728  3.97761779  3.9776176 ] → Best Action: North ↑
+State 340: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 341: Q-values [ 1.73348219  4.24949753  3.1266996   4.20730322 -5.81875125 -5.86048825] → Best Action: North ↑
+State 342: Q-values [ 6.25569107  8.525849    7.43561509  8.49434095 -1.59696443 -1.57200014] → Best Action: North ↑
+State 343: Q-values [ 2.72667227  5.30252276  4.09617626  5.15880006 -4.95553151 -4.99762651] → Best Action: North ↑
+State 344: Q-values [ 1.03432571  4.24949753  2.63304633  1.18768992 -6.14302743 -6.53653047] → Best Action: North ↑
+State 345: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 346: Q-values [ 2.08137476  4.24949753  3.02882637  2.00416601 -5.87660978 -5.87834344] → Best Action: North ↑
+State 347: Q-values [ 5.12109412  7.44059051  6.29526279  5.05346439 -2.68765795 -2.80733786] → Best Action: North ↑
+State 348: Q-values [ 5.78323337  8.50191134  7.1817572   8.525849   -2.38857455 -2.09731706] → Best Action: West ←
+State 349: Q-values [ 2.08414782  4.24949753  3.19407067  4.17429074 -5.79940446 -5.81057592] → Best Action: North ↑
+State 350: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 351: Q-values [ 3.02516399  5.30252276  4.17538493  5.25615273 -4.82086252 -4.79830011] → Best Action: North ↑
+State 352: Q-values [ 4.06438262  6.36618461  5.24842537  4.21472973 -3.78694453 -3.71363135] → Best Action: North ↑
+State 353: Q-values [ 6.36152962  8.525849    7.42045334  6.30877662 -1.58742    -1.56182191] → Best Action: North ↑
+State 354: Q-values [ 3.99328812  6.36618461  5.23714377  4.12281453 -3.75816292 -3.75544174] → Best Action: North ↑
+State 355: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 356: Q-values [11.84767518 14.11880599 12.97742742 14.11880103  3.97761502  3.97758771] → Best Action: North ↑
+State 357: Q-values [11.84768326 14.11880599 12.97750463 11.84780891  3.97749533  3.97755577] → Best Action: North ↑
+State 358: Q-values [11.84751355 14.11880599 12.97760047 14.11872494  3.97757431  3.97759851] → Best Action: North ↑
+State 359: Q-values [12.97761707 15.2715212  14.11880555 12.97761724  5.11880571  5.11880498] → Best Action: North ↑
+State 360: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 361: Q-values [ 1.13119792  3.20700256  1.12717464  2.13196523 -6.99377993 -6.84032117] → Best Action: North ↑
+State 362: Q-values [ 5.1654368   7.44059051  5.23786528  6.3571847  -2.69561036 -2.65799307] → Best Action: North ↑
+State 363: Q-values [ 1.92141716  4.24949753  2.09220944  3.17544241 -5.84982567 -5.98528192] → Best Action: North ↑
+State 364: Q-values [ 2.8450865   5.30252276  5.16430916  3.97796694 -5.03389982 -5.25665051] → Best Action: North ↑
+State 365: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 366: Q-values [ 2.53535565  5.30252276  4.9177352   4.15078865 -4.96791113 -5.13367623] → Best Action: North ↑
+State 367: Q-values [ 5.89820372  8.525849    8.43971418  7.35235962 -1.67290465 -1.96755438] → Best Action: North ↑
+State 368: Q-values [ 4.86523454  7.44059051  4.55009425  6.21663337 -3.04227937 -2.97706146] → Best Action: North ↑
+State 369: Q-values [-0.06922708  3.20700256  1.02220289  1.94816388 -7.17653916 -7.16375063] → Best Action: North ↑
+State 370: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 371: Q-values [ 1.72404027  4.24949753  1.88329415  3.17804836 -5.89980698 -5.89686795] → Best Action: North ↑
+State 372: Q-values [ 9.6220697   7.44059051  7.44059051  8.525849   -0.474151   -0.474151  ] → Best Action: South ↓
+State 373: Q-values [11.84784175  9.62206969  9.62206969 10.72936332  1.72936333  1.72936333] → Best Action: South ↓
+State 374: Q-values [ 9.6220697   7.44059051  7.44059051  8.525849   -0.474151   -0.474151  ] → Best Action: South ↓
+State 375: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 376: Q-values [10.72936333 12.97761793 10.72936333 11.84784175  2.84784175  2.84784175] → Best Action: North ↑
+State 377: Q-values [12.97761793 15.2715212  15.2715212  14.11880599  5.11880599  5.11880599] → Best Action: North ↑
+State 378: Q-values [10.72936333 12.97761793 10.72936333 11.84784175  2.84784175  2.84784175] → Best Action: North ↑
+State 379: Q-values [18.8     16.43588 16.43588 17.612    8.612    8.612  ] → Best Action: South ↓
+State 380: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 381: Q-values [-2.54420493  1.07580802 -1.29514512  2.17493253 -9.44498433 -9.13278281] → Best Action: West ←
+State 382: Q-values [ 2.59312451  5.80217657  4.9621535   6.36618461 -4.79077763 -4.17363428] → Best Action: West ←
+State 383: Q-values [-0.0570237   2.00892872  1.63367606  3.20700256 -8.0271049  -7.75502723] → Best Action: West ←
+State 384: Q-values [ 3.94771134  6.36618461  5.18694573  4.11343118 -3.73966588 -3.74617526] → Best Action: North ↑
+State 385: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 386: Q-values [ 3.92671194  6.36618461  4.33136087  4.09450151 -3.9716211  -4.09261141] → Best Action: North ↑
+State 387: Q-values [ 7.17735774  9.6220697   8.31418755  7.29591056 -0.63752079 -0.55179691] → Best Action: North ↑
+State 388: Q-values [ 1.92440932  5.29759458  1.52397596  6.36618461 -7.66755162 -6.37511741] → Best Action: West ←
+State 389: Q-values [-1.00362374  2.17493253  0.27050483  1.66395669 -9.44907951 -8.5658461 ] → Best Action: North ↑
+State 390: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 391: Q-values [ 0.23556151  3.20700256  1.90974069  3.12384726 -7.00303705 -7.48235524] → Best Action: North ↑
+State 392: Q-values [ 8.51835076  6.338432    7.4355356   8.525849   -1.56291573 -1.59547069] → Best Action: West ←
+State 393: Q-values [10.72936333  8.5192125   9.61130425 10.6987047   0.60663469  0.59259515] → Best Action: South ↓
+State 394: Q-values [ 8.49260491  6.34210966  7.4375811   8.525849   -1.56256765 -1.57124076] → Best Action: West ←
+State 395: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 396: Q-values [ 9.62110387 11.847808   10.72930705 11.84784175  1.72930963  1.72892466] → Best Action: West ←
+State 397: Q-values [14.11878619 16.43588    15.2715119  14.11880255  6.27151641  6.27151716] → Best Action: North ↑
+State 398: Q-values [ 9.62179623 11.84784175 10.72935277 11.84783637  1.7293589   1.72935837] → Best Action: North ↑
+State 399: Q-values [17.612     15.2715212 16.43588   17.612      7.43588    7.43588  ] → Best Action: West ←
+State 400: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 401: Q-values [  0.09976104   5.30252275  -0.16853339   1.55069211 -10.35642941
+  -8.62446568] → Best Action: North ↑
+State 402: Q-values [ 3.83129684  9.62206968  5.99889801  5.78986838 -2.43450504 -3.6957952 ] → Best Action: North ↑
+State 403: Q-values [ 2.53541427  6.36618457 -0.73605505  1.58375062 -7.61395537 -7.41079509] → Best Action: North ↑
+State 404: Q-values [ -5.73569264   1.15318311  -4.83221547  -6.15903069 -14.86953476
+ -13.03354608] → Best Action: North ↑
+State 405: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 406: Q-values [ -4.40509592   1.15318306  -2.53829198  -4.71326276 -13.51031716
+ -12.47635008] → Best Action: North ↑
+State 407: Q-values [ -0.64324783   4.24949751   0.29881655  -4.56895181 -10.34479876
+  -9.36929632] → Best Action: North ↑
+State 408: Q-values [12.97761793 11.84784175 12.97761793 12.97761793 14.11880599  3.97761793] → Best Action: Pickup :)
+State 409: Q-values [ 8.525849    7.44059051  8.525849    8.525849    9.6220697  -0.474151  ] → Best Action: Pickup :)
+State 410: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 411: Q-values [ 9.6220697   8.525849    9.6220697   9.6220697  10.72936333  0.6220697 ] → Best Action: Pickup :)
+State 412: Q-values [ -4.9390812    3.20700251  -3.32030771  -4.06569245 -13.15506488
+ -15.43223945] → Best Action: North ↑
+State 413: Q-values [ -0.04417511   5.3025222   -0.51442204  -0.05751949  -8.83466472
+ -10.95911895] → Best Action: North ↑
+State 414: Q-values [ -2.27476564   3.2070025   -2.33870743  -1.25990551 -10.61208978
+ -10.89034333] → Best Action: North ↑
+State 415: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 416: Q-values [14.11880599 15.2715212  14.11880599 14.11880599  5.11880599 12.97761793] → Best Action: North ↑
+State 417: Q-values [ 9.6220697  10.72936333  9.6220697   9.6220697   0.6220697   8.525849  ] → Best Action: North ↑
+State 418: Q-values [18.8   17.612 18.8   18.8    9.8   20.   ] → Best Action: Dropoff ⬇
+State 419: Q-values [10.72936333 11.84784175 10.72936333 10.72936333  1.72936333  9.6220697 ] → Best Action: North ↑
+State 420: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 421: Q-values [ 0.74011669  4.24949753 -0.13132242 -0.1078881  -8.17141707 -9.61500486] → Best Action: North ↑
+State 422: Q-values [ 6.64079264  8.525849    5.0519101   6.68524478 -2.45348118 -2.69518449] → Best Action: North ↑
+State 423: Q-values [ 4.02651641  5.30252276  2.49282889  3.2361251  -5.21876223 -5.3307334 ] → Best Action: North ↑
+State 424: Q-values [ -1.77223403   2.17493239  -1.54824939  -0.66314073 -12.49994364
+ -10.32421549] → Best Action: North ↑
+State 425: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 426: Q-values [ -3.28001262  -1.82434122   2.17493231  -3.64455713 -13.21961297
+ -11.27930532] → Best Action: East →
+State 427: Q-values [ 1.69219057  0.93820403  5.3025227   0.16980984 -8.46599971 -9.70299506] → Best Action: East →
+State 428: Q-values [ 7.37918619  8.525849    5.88808764  7.34133933 -1.61968269 -1.75946616] → Best Action: North ↑
+State 429: Q-values [ 2.67960632  4.24949753  1.42802814  2.66013756 -6.86077742 -6.49850944] → Best Action: North ↑
+State 430: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 431: Q-values [ 4.02567402  5.30252276  2.84989622  4.12115577 -5.06655153 -5.0639486 ] → Best Action: North ↑
+State 432: Q-values [ 1.01520203  4.24949749  2.66559451  0.69150795 -7.9566229  -8.63183802] → Best Action: North ↑
+State 433: Q-values [ 2.23082479  4.21657074  6.36618458  3.30037545 -6.25431513 -5.5765545 ] → Best Action: East →
+State 434: Q-values [ 1.92981261  4.24949753  2.07679045  0.76312377 -8.65517108 -9.10470111] → Best Action: North ↑
+State 435: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 436: Q-values [12.9239058  14.11880066 11.40537319 12.93653093  3.90622804  3.85974182] → Best Action: North ↑
+State 437: Q-values [10.41582409 11.84779387 11.59238341 10.44621744  1.47378789  1.11915086] → Best Action: North ↑
+State 438: Q-values [12.96613991 14.11880599 11.79857791 12.97201547  3.96239842  3.97518139] → Best Action: North ↑
+State 439: Q-values [11.82600019 12.97761753 12.90639729 11.77003705  2.80596072  2.8276015 ] → Best Action: North ↑
+State 440: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 441: Q-values [  0.10346348   3.20700255   1.48149993   0.50950509 -10.3509684
+  -8.69921774] → Best Action: North ↑
+State 442: Q-values [ 5.2684538   7.44059051  5.91184149  6.72375432 -3.59789015 -3.84252326] → Best Action: North ↑
+State 443: Q-values [ 1.47104874  2.19911144  1.96428465  4.24949753 -6.99447871 -6.91070263] → Best Action: West ←
+State 444: Q-values [ -2.52379174   3.20700139  -0.72159863  -3.71550376 -11.15180519
+ -11.05864268] → Best Action: North ↑
+State 445: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 446: Q-values [ 0.79325735  3.20700256  1.55126272 -2.31879889 -8.86745822 -8.71113741] → Best Action: North ↑
+State 447: Q-values [ 4.57323962  6.36618461  2.83449517  2.69208014 -4.67089917 -5.34816498] → Best Action: North ↑
+State 448: Q-values [ 3.76872216  5.87534627  4.1556917   7.4405905  -4.8968597  -3.82790289] → Best Action: West ←
+State 449: Q-values [ 1.06920386  3.20700256  0.52712389  2.07779337 -7.76813368 -8.66722725] → Best Action: North ↑
+State 450: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 451: Q-values [ 1.45377169  3.71136686  2.44600757  4.24949753 -6.67411116 -7.33327904] → Best Action: West ←
+State 452: Q-values [ 2.7890181   5.30252276  3.20170505 -0.71985944 -5.77935474 -6.63577554] → Best Action: North ↑
+State 453: Q-values [ 5.80169921  7.44059051  6.24541801  4.88614913 -2.88452786 -3.38897296] → Best Action: North ↑
+State 454: Q-values [-0.1463452   5.30252276  3.16437769  0.73981651 -7.37261965 -6.96062897] → Best Action: North ↑
+State 455: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 456: Q-values [11.44772448 12.97760996 11.38805478 12.44331253  1.95686114  2.6837047 ] → Best Action: North ↑
+State 457: Q-values [11.44569282 12.9776073  11.61423314 10.33152161  2.29154872  2.69040262] → Best Action: North ↑
+State 458: Q-values [11.69982127 12.90751689 11.6282077  12.97760053  2.77329717  2.58119075] → Best Action: West ←
+State 459: Q-values [12.97505822 14.1188059  12.96229415 11.81782916  3.94687807  3.96190672] → Best Action: North ↑
+State 460: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 461: Q-values [ 0.71111956  2.17493253 -0.53777869  0.28367561 -8.82782247 -8.38219306] → Best Action: North ↑
+State 462: Q-values [ 1.56842106  6.3661846   0.95000403  2.4757278  -7.8029659  -6.26137004] → Best Action: North ↑
+State 463: Q-values [ 0.75270753  3.20700255 -2.40698194 -1.16560604 -8.98160231 -8.22594173] → Best Action: North ↑
+State 464: Q-values [ 0.07229398  4.24949753  2.19434601 -0.18760975 -7.43633875 -8.80268346] → Best Action: North ↑
+State 465: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 466: Q-values [ 1.18687185  4.24949741  2.23715395 -0.17563528 -8.31867707 -9.50964381] → Best Action: North ↑
+State 467: Q-values [ 4.40476938  7.44059051  4.37172726  3.91874919 -3.79108866 -6.0428911 ] → Best Action: North ↑
+State 468: Q-values [ 0.85721228  6.3661846  -0.89410926  1.39817311 -9.40458305 -9.28137431] → Best Action: North ↑
+State 469: Q-values [ -3.84585946   2.17493249  -2.43559168  -2.49527245 -10.90799347
+ -10.87808942] → Best Action: North ↑
+State 470: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 471: Q-values [ 0.63782232  3.20700256 -0.85599848  0.24805513 -7.64730763 -7.88081527] → Best Action: North ↑
+State 472: Q-values [ 9.6220697   8.525849    8.525849    9.6220697  10.72936333  0.6220697 ] → Best Action: Pickup :)
+State 473: Q-values [11.84784175 10.72936333 10.72936333 11.84784175 12.97761793  2.84784175] → Best Action: Pickup :)
+State 474: Q-values [ 9.6220697   8.525849    8.525849    9.6220697  10.72936333  0.6220697 ] → Best Action: Pickup :)
+State 475: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 476: Q-values [10.72936333 11.84784175  9.6220697  10.72936333  1.72936333  9.6220697 ] → Best Action: North ↑
+State 477: Q-values [12.97761793 14.11880599 14.11880596 12.97761793  3.97761793 11.84784175] → Best Action: North ↑
+State 478: Q-values [10.72936333 11.84784175  9.6220697  10.72936333  1.72936333  9.6220697 ] → Best Action: North ↑
+State 479: Q-values [18.8   17.612 17.612 18.8    9.8   20.   ] → Best Action: Dropoff ⬇
+State 480: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 481: Q-values [ -3.89775192  -0.48598646  -3.30065543   1.15318317 -11.91797571
+ -11.73460016] → Best Action: West ←
+State 482: Q-values [ 1.61911273  5.30252273  1.43140848  1.92031587 -7.32658175 -8.6253101 ] → Best Action: North ↑
+State 483: Q-values [ -2.43869859   2.17493238  -2.53109401  -0.45882019 -10.20062242
+ -12.24561617] → Best Action: North ↑
+State 484: Q-values [ 2.59580571e+00  5.30252275e+00  1.61963682e+00 -4.21414999e-03
+ -6.69459844e+00 -6.19907357e+00] → Best Action: North ↑
+State 485: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 486: Q-values [ 1.60904833  5.30252276  2.11001048  1.09288251 -6.93332072 -8.21273738] → Best Action: North ↑
+State 487: Q-values [ 6.91108554  8.525849    5.7553441   3.32889049 -3.77745067 -3.43187108] → Best Action: North ↑
+State 488: Q-values [ -1.85673651   5.30252207  -0.82960916   0.15904737 -12.97510503
+ -10.79522264] → Best Action: North ↑
+State 489: Q-values [ -4.27250959   1.15318293  -3.81407369  -1.86401288 -14.60570888
+ -12.65293215] → Best Action: North ↑
+State 490: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 491: Q-values [ -1.76134407   2.17493251  -0.92296758   0.42356181 -10.76385374
+ -10.08161517] → Best Action: North ↑
+State 492: Q-values [ 8.50366958  7.4259365   8.5132138   9.6220697  -0.48084145 -0.52577181] → Best Action: West ←
+State 493: Q-values [10.72907507  9.62175095 10.72892758 11.84784175  1.72921726  1.72923031] → Best Action: West ←
+State 494: Q-values [ 8.50365705  7.43103339  8.48428266  9.6220697  -0.47971949 -0.48855706] → Best Action: West ←
+State 495: Q-values [0. 0. 0. 0. 0. 0.] → Best Action: South ↓
+State 496: Q-values [ 9.61576189 10.72936333  9.60561361 10.72575485  0.55970812  0.61599569] → Best Action: North ↑
+State 497: Q-values [14.11037829 15.2715212  14.11365431 12.97389728  5.10603126  5.11498702] → Best Action: North ↑
+State 498: Q-values [ 9.61412719 10.72936333  9.60047    10.72079287  0.62050365  0.60036592] → Best Action: North ↑
+State 499: Q-values [17.61199986 16.43587998 17.61199806 18.8         8.61199997  8.61199997] → Best Action: West ←

@@ -1,0 +1,886 @@
+Loading REINFORCE state for 400000 episodes...
+Successfully loaded previous REINFORCE state.
+Loading initial actor weights (trained for 400000 episodes).
+Loading initial critic weights (trained for 400000 episodes).
+Training REINFORCE w/ Baseline for 400000 more episodes.
+Params: alpha_actor=5e-05, alpha_critic=0.001, gamma=0.99, normalize_adv=True, grad_clip=1.0
+Training REINFORCE w/ Baseline:   0%|          | 2/400000 [00:00<7:20:01, 15.15it/s]
+Overall Ep 400001, Avg Rew (last 100): -176.61, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   1%|          | 4004/400000 [04:33<4:11:07, 26.28it/s] 
+Overall Ep 404000, Avg Rew (last 100): -155.23, Success (last 100): 0.27, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   2%|▏         | 8001/400000 [08:58<10:34:29, 10.30it/s]
+Overall Ep 408000, Avg Rew (last 100): -174.31, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   3%|▎         | 12000/400000 [13:22<10:43:58, 10.04it/s]
+Overall Ep 412000, Avg Rew (last 100): -171.97, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   4%|▍         | 16004/400000 [17:46<3:23:42, 31.42it/s] 
+Overall Ep 416000, Avg Rew (last 100): -155.35, Success (last 100): 0.26, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   5%|▌         | 20003/400000 [22:11<4:51:24, 21.73it/s] 
+Overall Ep 420000, Avg Rew (last 100): -169.99, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   6%|▌         | 24002/400000 [26:35<8:23:45, 12.44it/s] 
+Overall Ep 424000, Avg Rew (last 100): -163.81, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   7%|▋         | 28007/400000 [31:05<4:20:36, 23.79it/s] 
+Overall Ep 428000, Avg Rew (last 100): -175.78, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   8%|▊         | 32002/400000 [35:29<9:27:09, 10.81it/s] 
+Overall Ep 432000, Avg Rew (last 100): -181.23, Success (last 100): 0.12, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:   9%|▉         | 36003/400000 [39:52<3:57:37, 25.53it/s] 
+Overall Ep 436000, Avg Rew (last 100): -173.63, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  10%|█         | 40001/400000 [44:17<10:15:52,  9.74it/s]
+Overall Ep 440000, Avg Rew (last 100): -167.41, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  11%|█         | 44003/400000 [48:38<5:31:11, 17.91it/s] 
+Overall Ep 444000, Avg Rew (last 100): -163.08, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  12%|█▏        | 48001/400000 [52:58<7:02:22, 13.89it/s] 
+Overall Ep 448000, Avg Rew (last 100): -173.38, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  13%|█▎        | 52003/400000 [57:22<4:16:48, 22.59it/s] 
+Overall Ep 452000, Avg Rew (last 100): -163.23, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  14%|█▍        | 56004/400000 [1:01:46<3:47:47, 25.17it/s] 
+Overall Ep 456000, Avg Rew (last 100): -179.97, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  15%|█▌        | 60004/400000 [1:06:07<3:03:17, 30.92it/s] 
+Overall Ep 460000, Avg Rew (last 100): -164.75, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  16%|█▌        | 64002/400000 [1:10:28<7:41:58, 12.12it/s] 
+Overall Ep 464000, Avg Rew (last 100): -170.34, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  17%|█▋        | 68002/400000 [1:14:48<8:18:19, 11.10it/s] 
+Overall Ep 468000, Avg Rew (last 100): -153.00, Success (last 100): 0.27, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  18%|█▊        | 72000/400000 [1:19:10<6:46:37, 13.44it/s] 
+Overall Ep 472000, Avg Rew (last 100): -159.54, Success (last 100): 0.25, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  19%|█▉        | 76002/400000 [1:23:33<4:53:58, 18.37it/s] 
+Overall Ep 476000, Avg Rew (last 100): -165.66, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  20%|██        | 80005/400000 [1:27:53<2:50:09, 31.34it/s] 
+Overall Ep 480000, Avg Rew (last 100): -160.43, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  21%|██        | 84005/400000 [1:32:13<4:59:52, 17.56it/s] 
+Overall Ep 484000, Avg Rew (last 100): -174.52, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  22%|██▏       | 88005/400000 [1:36:29<2:51:31, 30.32it/s] 
+Overall Ep 488000, Avg Rew (last 100): -149.44, Success (last 100): 0.28, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  23%|██▎       | 92002/400000 [1:40:46<7:03:17, 12.13it/s] 
+Overall Ep 492000, Avg Rew (last 100): -170.69, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  24%|██▍       | 96002/400000 [1:45:07<4:03:12, 20.83it/s]
+Overall Ep 496000, Avg Rew (last 100): -168.19, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  25%|██▌       | 100000/400000 [1:49:26<8:12:14, 10.16it/s]
+Overall Ep 500000, Avg Rew (last 100): -170.65, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  26%|██▌       | 104001/400000 [1:53:48<7:43:20, 10.65it/s] 
+Overall Ep 504000, Avg Rew (last 100): -167.02, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  27%|██▋       | 108000/400000 [1:58:08<4:31:08, 17.95it/s] 
+Overall Ep 508000, Avg Rew (last 100): -168.39, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  28%|██▊       | 112000/400000 [2:02:28<7:41:53, 10.39it/s]
+Overall Ep 512000, Avg Rew (last 100): -167.38, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  29%|██▉       | 116002/400000 [2:06:51<5:11:29, 15.20it/s]
+Overall Ep 516000, Avg Rew (last 100): -171.31, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  30%|███       | 120001/400000 [2:11:11<6:01:59, 12.89it/s]
+Overall Ep 520000, Avg Rew (last 100): -168.94, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  31%|███       | 124001/400000 [2:15:32<3:16:20, 23.43it/s]
+Overall Ep 524000, Avg Rew (last 100): -165.33, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  32%|███▏      | 128002/400000 [2:19:52<2:23:00, 31.70it/s]
+Overall Ep 528000, Avg Rew (last 100): -159.14, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  33%|███▎      | 132001/400000 [2:24:13<5:12:48, 14.28it/s]
+Overall Ep 532000, Avg Rew (last 100): -147.28, Success (last 100): 0.29, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  34%|███▍      | 136004/400000 [2:28:32<2:56:54, 24.87it/s]
+Overall Ep 536000, Avg Rew (last 100): -171.30, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  35%|███▌      | 140002/400000 [2:32:53<2:45:30, 26.18it/s]
+Overall Ep 540000, Avg Rew (last 100): -150.38, Success (last 100): 0.27, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  36%|███▌      | 144005/400000 [2:37:13<2:42:32, 26.25it/s]
+Overall Ep 544000, Avg Rew (last 100): -161.94, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  37%|███▋      | 148002/400000 [2:41:38<6:01:06, 11.63it/s]
+Overall Ep 548000, Avg Rew (last 100): -181.44, Success (last 100): 0.12, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  38%|███▊      | 152003/400000 [2:46:00<2:57:21, 23.30it/s]
+Overall Ep 552000, Avg Rew (last 100): -163.67, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  39%|███▉      | 156002/400000 [2:50:22<4:47:09, 14.16it/s]
+Overall Ep 556000, Avg Rew (last 100): -162.06, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  40%|████      | 160002/400000 [2:54:45<3:03:44, 21.77it/s]
+Overall Ep 560000, Avg Rew (last 100): -168.00, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  41%|████      | 164002/400000 [2:59:04<6:30:55, 10.06it/s]
+Overall Ep 564000, Avg Rew (last 100): -157.90, Success (last 100): 0.24, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  42%|████▏     | 168001/400000 [3:03:24<5:53:56, 10.92it/s]
+Overall Ep 568000, Avg Rew (last 100): -174.54, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  43%|████▎     | 172002/400000 [3:07:43<5:19:36, 11.89it/s]
+Overall Ep 572000, Avg Rew (last 100): -172.90, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  44%|████▍     | 176002/400000 [3:11:59<3:57:14, 15.74it/s]
+Overall Ep 576000, Avg Rew (last 100): -166.07, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  45%|████▌     | 180002/400000 [3:16:19<6:36:52,  9.24it/s]
+Overall Ep 580000, Avg Rew (last 100): -172.73, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  46%|████▌     | 184002/400000 [3:20:36<2:37:37, 22.84it/s]
+Overall Ep 584000, Avg Rew (last 100): -166.88, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  47%|████▋     | 188002/400000 [3:24:59<5:55:12,  9.95it/s]
+Overall Ep 588000, Avg Rew (last 100): -163.51, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  48%|████▊     | 192000/400000 [3:29:14<4:56:59, 11.67it/s]
+Overall Ep 592000, Avg Rew (last 100): -163.33, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  49%|████▉     | 196002/400000 [3:33:36<2:05:33, 27.08it/s]
+Overall Ep 596000, Avg Rew (last 100): -165.63, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  50%|█████     | 200001/400000 [3:37:57<6:10:11,  9.00it/s]
+Overall Ep 600000, Avg Rew (last 100): -178.57, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  51%|█████     | 204000/400000 [3:42:16<5:01:02, 10.85it/s]
+Overall Ep 604000, Avg Rew (last 100): -164.21, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  52%|█████▏    | 208002/400000 [3:46:35<2:07:46, 25.04it/s]
+Overall Ep 608000, Avg Rew (last 100): -162.02, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  53%|█████▎    | 212002/400000 [3:50:54<4:50:00, 10.80it/s]
+Overall Ep 612000, Avg Rew (last 100): -164.25, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  54%|█████▍    | 216005/400000 [3:55:17<2:16:32, 22.46it/s]
+Overall Ep 616000, Avg Rew (last 100): -169.16, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  55%|█████▌    | 220002/400000 [3:59:35<3:19:38, 15.03it/s]
+Overall Ep 620000, Avg Rew (last 100): -175.87, Success (last 100): 0.14, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  56%|█████▌    | 224005/400000 [4:03:59<2:01:43, 24.10it/s]
+Overall Ep 624000, Avg Rew (last 100): -170.51, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  57%|█████▋    | 228000/400000 [4:08:17<4:03:14, 11.79it/s]
+Overall Ep 628000, Avg Rew (last 100): -170.29, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  58%|█████▊    | 232004/400000 [4:12:36<1:51:38, 25.08it/s]
+Overall Ep 632000, Avg Rew (last 100): -161.49, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  59%|█████▉    | 236002/400000 [4:16:56<2:18:35, 19.72it/s]
+Overall Ep 636000, Avg Rew (last 100): -178.00, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  60%|██████    | 240001/400000 [4:21:16<4:30:24,  9.86it/s]
+Overall Ep 640000, Avg Rew (last 100): -177.57, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  61%|██████    | 244001/400000 [4:25:34<3:56:05, 11.01it/s]
+Overall Ep 644000, Avg Rew (last 100): -175.93, Success (last 100): 0.14, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  62%|██████▏   | 248005/400000 [4:29:56<1:50:08, 23.00it/s]
+Overall Ep 648000, Avg Rew (last 100): -162.45, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  63%|██████▎   | 252003/400000 [4:34:16<3:16:08, 12.58it/s]
+Overall Ep 652000, Avg Rew (last 100): -156.08, Success (last 100): 0.24, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  64%|██████▍   | 256004/400000 [4:38:32<1:26:03, 27.89it/s]
+Overall Ep 656000, Avg Rew (last 100): -155.73, Success (last 100): 0.25, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  65%|██████▌   | 260001/400000 [4:42:53<2:37:26, 14.82it/s]
+Overall Ep 660000, Avg Rew (last 100): -169.01, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  66%|██████▌   | 264004/400000 [4:47:21<2:01:46, 18.61it/s]
+Overall Ep 664000, Avg Rew (last 100): -172.41, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  67%|██████▋   | 268005/400000 [4:51:38<1:19:30, 27.67it/s]
+Overall Ep 668000, Avg Rew (last 100): -164.55, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  68%|██████▊   | 272000/400000 [4:55:59<3:11:24, 11.15it/s]
+Overall Ep 672000, Avg Rew (last 100): -161.49, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  69%|██████▉   | 276003/400000 [5:00:19<1:36:15, 21.47it/s]
+Overall Ep 676000, Avg Rew (last 100): -162.11, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  70%|███████   | 280002/400000 [5:04:40<2:52:47, 11.57it/s]
+Overall Ep 680000, Avg Rew (last 100): -170.14, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  71%|███████   | 284003/400000 [5:09:00<1:14:01, 26.12it/s]
+Overall Ep 684000, Avg Rew (last 100): -166.43, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  72%|███████▏  | 288002/400000 [5:13:20<2:57:34, 10.51it/s]
+Overall Ep 688000, Avg Rew (last 100): -167.92, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  73%|███████▎  | 292000/400000 [5:17:44<2:50:49, 10.54it/s]
+Overall Ep 692000, Avg Rew (last 100): -164.22, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  74%|███████▍  | 296001/400000 [5:22:01<2:43:48, 10.58it/s]
+Overall Ep 696000, Avg Rew (last 100): -166.85, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  75%|███████▌  | 300001/400000 [5:26:23<2:36:03, 10.68it/s]
+Overall Ep 700000, Avg Rew (last 100): -158.83, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  76%|███████▌  | 304000/400000 [5:30:42<2:15:24, 11.82it/s]
+Overall Ep 704000, Avg Rew (last 100): -153.49, Success (last 100): 0.25, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  77%|███████▋  | 308001/400000 [5:35:00<2:26:39, 10.46it/s]
+Overall Ep 708000, Avg Rew (last 100): -159.80, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  78%|███████▊  | 312003/400000 [5:39:19<1:40:19, 14.62it/s]
+Overall Ep 712000, Avg Rew (last 100): -173.11, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  79%|███████▉  | 316003/400000 [5:43:35<46:25, 30.16it/s]  
+Overall Ep 716000, Avg Rew (last 100): -147.31, Success (last 100): 0.29, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  80%|████████  | 320001/400000 [5:47:54<1:42:53, 12.96it/s]
+Overall Ep 720000, Avg Rew (last 100): -158.78, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  81%|████████  | 324000/400000 [5:52:18<1:44:00, 12.18it/s]
+Overall Ep 724000, Avg Rew (last 100): -166.67, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  82%|████████▏ | 328003/400000 [5:56:35<52:59, 22.65it/s]  
+Overall Ep 728000, Avg Rew (last 100): -174.09, Success (last 100): 0.15, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  83%|████████▎ | 332002/400000 [6:00:55<46:44, 24.24it/s]  
+Overall Ep 732000, Avg Rew (last 100): -155.07, Success (last 100): 0.25, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  84%|████████▍ | 336002/400000 [6:05:14<40:00, 26.66it/s]  
+Overall Ep 736000, Avg Rew (last 100): -155.07, Success (last 100): 0.24, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  85%|████████▌ | 340003/400000 [6:09:32<45:10, 22.13it/s]  
+Overall Ep 740000, Avg Rew (last 100): -181.11, Success (last 100): 0.11, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  86%|████████▌ | 344000/400000 [6:13:52<1:24:09, 11.09it/s]
+Overall Ep 744000, Avg Rew (last 100): -170.14, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  87%|████████▋ | 348006/400000 [6:18:15<29:16, 29.59it/s]  
+Overall Ep 748000, Avg Rew (last 100): -164.65, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  88%|████████▊ | 352006/400000 [6:22:34<30:00, 26.66it/s]  
+Overall Ep 752000, Avg Rew (last 100): -169.76, Success (last 100): 0.17, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  89%|████████▉ | 356000/400000 [6:26:54<56:11, 13.05it/s]  
+Overall Ep 756000, Avg Rew (last 100): -167.20, Success (last 100): 0.18, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  90%|█████████ | 360004/400000 [6:31:19<29:23, 22.68it/s]  
+Overall Ep 760000, Avg Rew (last 100): -160.30, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  91%|█████████ | 364005/400000 [6:35:37<20:14, 29.63it/s]  
+Overall Ep 764000, Avg Rew (last 100): -156.23, Success (last 100): 0.23, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  92%|█████████▏| 368002/400000 [6:39:58<52:46, 10.10it/s]  
+Overall Ep 768000, Avg Rew (last 100): -171.56, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  93%|█████████▎| 372001/400000 [6:44:15<33:02, 14.13it/s]  
+Overall Ep 772000, Avg Rew (last 100): -177.21, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  94%|█████████▍| 376002/400000 [6:48:34<35:07, 11.39it/s]
+Overall Ep 776000, Avg Rew (last 100): -176.12, Success (last 100): 0.13, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  95%|█████████▌| 380004/400000 [6:52:52<15:09, 21.99it/s]
+Overall Ep 780000, Avg Rew (last 100): -161.28, Success (last 100): 0.21, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  96%|█████████▌| 384004/400000 [6:57:10<11:31, 23.13it/s]
+Overall Ep 784000, Avg Rew (last 100): -172.69, Success (last 100): 0.16, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  97%|█████████▋| 388002/400000 [7:01:31<17:33, 11.38it/s]
+Overall Ep 788000, Avg Rew (last 100): -163.83, Success (last 100): 0.20, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  98%|█████████▊| 392000/400000 [7:06:27<11:14, 11.86it/s]
+Overall Ep 792000, Avg Rew (last 100): -165.89, Success (last 100): 0.19, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline:  99%|█████████▉| 396001/400000 [7:13:11<07:02,  9.46it/s]
+Overall Ep 796000, Avg Rew (last 100): -175.42, Success (last 100): 0.14, Avg Sq Adv (last 100): 1.00
+Training REINFORCE w/ Baseline: 100%|██████████| 400000/400000 [7:18:25<00:00, 15.21it/s]
+Overall Ep 800000, Avg Rew (last 100): -158.67, Success (last 100): 0.22, Avg Sq Adv (last 100): 1.00
+
+REINFORCE w/ Baseline Training Time for this run: 26306.08 seconds
+Saved REINFORCE weights and logs to files starting with: taxi_reinforce_linear_800k
+
+
+--- Evaluating Final REINFORCE Policy for 1000 episodes ---
+Evaluating REINFORCE Policy: 100%|██████████| 1000/1000 [00:03<00:00, 282.96it/s]
+--- REINFORCE Policy Evaluation Results ---
+Avg Reward: -200.00 +/- 0.00
+Avg Steps: 200.00 +/- 0.00
+Success Rate: 0.00%
+
+--- REINFORCE w/ Baseline Metrics Summary (after current run) ---
+Algorithm: REINFORCE w/ Baseline (Linear FA)
+Training Time (s) for this run: 26306.08
+Total Episodes Trained: 800000
+Hyperparameters: alpha_actor=5e-05, alpha_critic=0.001, gamma=0.99, total_episodes_trained=800000
+Avg Reward per Ep (Learning Curve End): -158.67
+Steps per Ep (Learning Curve End): 161.31
+Success Rate (Learning Curve End %): 22.00
+Avg Sq Advantage (Learning Curve End): 1.00
+Convergence Speed (Qualitative): Observe from plot trends
+Final Policy - Avg Reward: -200.00 ± 0.00
+Final Policy - Avg Steps: 200.00 ± 0.00
+Final Policy - Success Rate (%): 0.00
+
+--- Simulating one episode with the final REINFORCE policy ---
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 0, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -1
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 1, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -2
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 2, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -3
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 3, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -4
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 4, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -5
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 5, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -6
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 6, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -7
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 7, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -8
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 8, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -9
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 9, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -10
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 10, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -11
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 11, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -12
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 12, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -13
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 13, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -14
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 14, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -15
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 15, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -16
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 16, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -17
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 17, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -18
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 18, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -19
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 19, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -20
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 20, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -21
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 21, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -22
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 22, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -23
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 23, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -24
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 24, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -25
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 25, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -26
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 26, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -27
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 27, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -28
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 28, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -29
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 29, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -30
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 30, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -31
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 31, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -32
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 32, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -33
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 33, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -34
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 34, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -35
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 35, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -36
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 36, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -37
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 37, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -38
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 38, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -39
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 39, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -40
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 40, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -41
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 41, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -42
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 42, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -43
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 43, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -44
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 44, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -45
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 45, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -46
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 46, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -47
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 47, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -48
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 48, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -49
+------------------------------
++---------+
+|R: | : :G|
+| :T| : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step: 49, State: 126 (1,1,G (Green),Y (Yellow))
+Prefs: ['1.72', '1.45', '2.06', '-0.89', '-1.95', '-2.39']
+Probs: ['0.30', '0.23', '0.43', '0.02', '0.01', '0.01']
+Chosen: East  →
+Reward: -1, Total: -50
+------------------------------
+Sim finished in 50 steps, total reward -50.

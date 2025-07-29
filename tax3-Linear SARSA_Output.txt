@@ -1,0 +1,472 @@
+Attempting to load state from files starting with: taxi_sarsa_augmented_300k
+Successfully loaded weights and logs for 300000 episodes.
+Loading initial weights (trained for 300000 episodes).
+Training with augmented features for 400000 more episodes. Alpha: 0.001
+Epsilon will decay from 0.5 towards 0.01.
+Decay is targeted to complete around overall episode 560000 (current total planned: 700000).
+Training SARSA (Augmented Features):   0%|          | 10/400000 [00:00<1:13:23, 90.83it/s]
+Overall Ep 300001, Avg R (last 100 ep): -177.45, Eps: 0.237, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):   1%|          | 4011/400000 [01:41<1:52:07, 58.86it/s]
+Overall Ep 304000, Avg R (last 100 ep): -309.37, Eps: 0.234, Drops (last 100 ep): 0.08
+Training SARSA (Augmented Features):   2%|▏         | 8012/400000 [03:29<1:43:04, 63.38it/s]
+Overall Ep 308000, Avg R (last 100 ep): -305.46, Eps: 0.231, Drops (last 100 ep): 0.11
+Training SARSA (Augmented Features):   3%|▎         | 12003/400000 [05:17<2:37:00, 41.19it/s]
+Overall Ep 312000, Avg R (last 100 ep): -284.75, Eps: 0.227, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):   4%|▍         | 16005/400000 [07:03<3:27:20, 30.87it/s]
+Overall Ep 316000, Avg R (last 100 ep): -295.50, Eps: 0.224, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):   5%|▌         | 20006/400000 [08:49<3:20:23, 31.60it/s]
+Overall Ep 320000, Avg R (last 100 ep): -289.89, Eps: 0.220, Drops (last 100 ep): 0.09
+Training SARSA (Augmented Features):   6%|▌         | 24006/400000 [10:31<3:02:56, 34.26it/s]
+Overall Ep 324000, Avg R (last 100 ep): -271.44, Eps: 0.217, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):   7%|▋         | 28005/400000 [12:10<2:56:40, 35.09it/s]
+Overall Ep 328000, Avg R (last 100 ep): -278.83, Eps: 0.213, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):   8%|▊         | 32006/400000 [13:48<3:24:28, 29.99it/s]
+Overall Ep 332000, Avg R (last 100 ep): -259.91, Eps: 0.210, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):   9%|▉         | 36005/400000 [15:27<2:45:48, 36.59it/s]
+Overall Ep 336000, Avg R (last 100 ep): -265.54, Eps: 0.206, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  10%|█         | 40014/400000 [17:06<1:16:03, 78.89it/s]
+Overall Ep 340000, Avg R (last 100 ep): -268.12, Eps: 0.203, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  11%|█         | 44012/400000 [18:42<1:14:21, 79.79it/s]
+Overall Ep 344000, Avg R (last 100 ep): -228.98, Eps: 0.199, Drops (last 100 ep): 0.28
+Training SARSA (Augmented Features):  12%|█▏        | 48010/400000 [20:22<1:39:13, 59.12it/s]
+Overall Ep 348000, Avg R (last 100 ep): -259.96, Eps: 0.196, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  13%|█▎        | 52004/400000 [22:05<2:37:25, 36.84it/s]
+Overall Ep 352000, Avg R (last 100 ep): -251.85, Eps: 0.192, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  14%|█▍        | 56005/400000 [23:49<2:56:55, 32.41it/s]
+Overall Ep 356000, Avg R (last 100 ep): -255.85, Eps: 0.189, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  15%|█▌        | 60002/400000 [25:32<2:36:39, 36.17it/s]
+Overall Ep 360000, Avg R (last 100 ep): -253.07, Eps: 0.185, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  16%|█▌        | 64012/400000 [27:16<1:19:33, 70.38it/s]
+Overall Ep 364000, Avg R (last 100 ep): -251.39, Eps: 0.182, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  17%|█▋        | 68005/400000 [28:56<2:32:04, 36.39it/s]
+Overall Ep 368000, Avg R (last 100 ep): -244.63, Eps: 0.178, Drops (last 100 ep): 0.23
+Training SARSA (Augmented Features):  18%|█▊        | 72005/400000 [30:36<2:47:51, 32.57it/s]
+Overall Ep 372000, Avg R (last 100 ep): -242.38, Eps: 0.175, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  19%|█▉        | 76010/400000 [32:17<1:10:36, 76.47it/s]
+Overall Ep 376000, Avg R (last 100 ep): -248.87, Eps: 0.171, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  20%|██        | 80004/400000 [34:03<2:37:13, 33.92it/s]
+Overall Ep 380000, Avg R (last 100 ep): -260.15, Eps: 0.168, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):  21%|██        | 84012/400000 [35:47<1:12:57, 72.19it/s]
+Overall Ep 384000, Avg R (last 100 ep): -239.72, Eps: 0.164, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  22%|██▏       | 88006/400000 [37:29<2:37:01, 33.12it/s]
+Overall Ep 388000, Avg R (last 100 ep): -229.75, Eps: 0.161, Drops (last 100 ep): 0.24
+Training SARSA (Augmented Features):  23%|██▎       | 92006/400000 [39:14<2:27:03, 34.91it/s]
+Overall Ep 392000, Avg R (last 100 ep): -229.00, Eps: 0.157, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  24%|██▍       | 96008/400000 [41:01<2:18:38, 36.54it/s]
+Overall Ep 396000, Avg R (last 100 ep): -245.85, Eps: 0.154, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  25%|██▌       | 100006/400000 [42:43<2:37:06, 31.82it/s]
+Overall Ep 400000, Avg R (last 100 ep): -238.78, Eps: 0.150, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  26%|██▌       | 104005/400000 [44:28<2:41:12, 30.60it/s]
+Overall Ep 404000, Avg R (last 100 ep): -247.73, Eps: 0.147, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  27%|██▋       | 108013/400000 [46:12<1:10:33, 68.97it/s]
+Overall Ep 408000, Avg R (last 100 ep): -256.67, Eps: 0.143, Drops (last 100 ep): 0.11
+Training SARSA (Augmented Features):  28%|██▊       | 112007/400000 [48:00<2:01:56, 39.36it/s]
+Overall Ep 412000, Avg R (last 100 ep): -233.74, Eps: 0.140, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  29%|██▉       | 116010/400000 [49:41<1:08:43, 68.88it/s]
+Overall Ep 416000, Avg R (last 100 ep): -223.94, Eps: 0.136, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  30%|███       | 120008/400000 [51:27<1:58:47, 39.28it/s]
+Overall Ep 420000, Avg R (last 100 ep): -238.41, Eps: 0.133, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  31%|███       | 124002/400000 [53:10<1:56:49, 39.38it/s]
+Overall Ep 424000, Avg R (last 100 ep): -212.95, Eps: 0.129, Drops (last 100 ep): 0.25
+Training SARSA (Augmented Features):  32%|███▏      | 128005/400000 [54:57<2:11:42, 34.42it/s]
+Overall Ep 428000, Avg R (last 100 ep): -221.83, Eps: 0.126, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  33%|███▎      | 132007/400000 [56:40<1:15:48, 58.92it/s]
+Overall Ep 432000, Avg R (last 100 ep): -210.61, Eps: 0.122, Drops (last 100 ep): 0.24
+Training SARSA (Augmented Features):  34%|███▍      | 136006/400000 [58:28<1:03:11, 69.63it/s]
+Overall Ep 436000, Avg R (last 100 ep): -233.19, Eps: 0.119, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  35%|███▌      | 140003/400000 [1:00:14<2:16:16, 31.80it/s]
+Overall Ep 440000, Avg R (last 100 ep): -240.89, Eps: 0.115, Drops (last 100 ep): 0.13
+Training SARSA (Augmented Features):  36%|███▌      | 144006/400000 [1:02:05<2:19:57, 30.48it/s]
+Overall Ep 444000, Avg R (last 100 ep): -224.91, Eps: 0.112, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  37%|███▋      | 148003/400000 [1:03:54<2:20:06, 29.98it/s]
+Overall Ep 448000, Avg R (last 100 ep): -206.10, Eps: 0.108, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  38%|███▊      | 152006/400000 [1:05:40<1:08:09, 60.64it/s]
+Overall Ep 452000, Avg R (last 100 ep): -233.82, Eps: 0.105, Drops (last 100 ep): 0.12
+Training SARSA (Augmented Features):  39%|███▉      | 156004/400000 [1:07:33<2:07:33, 31.88it/s]
+Overall Ep 456000, Avg R (last 100 ep): -210.14, Eps: 0.101, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  40%|████      | 160005/400000 [1:09:26<2:00:34, 33.17it/s]
+Overall Ep 460000, Avg R (last 100 ep): -200.73, Eps: 0.098, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  41%|████      | 164004/400000 [1:11:17<1:54:26, 34.37it/s]
+Overall Ep 464000, Avg R (last 100 ep): -211.19, Eps: 0.094, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  42%|████▏     | 168007/400000 [1:13:05<59:35, 64.88it/s]  
+Overall Ep 468000, Avg R (last 100 ep): -204.40, Eps: 0.091, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  43%|████▎     | 172006/400000 [1:14:55<1:56:36, 32.58it/s]
+Overall Ep 472000, Avg R (last 100 ep): -213.78, Eps: 0.087, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):  44%|████▍     | 176002/400000 [1:16:46<1:58:55, 31.39it/s]
+Overall Ep 476000, Avg R (last 100 ep): -206.38, Eps: 0.084, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  45%|████▌     | 180007/400000 [1:18:40<1:50:02, 33.32it/s]
+Overall Ep 480000, Avg R (last 100 ep): -208.76, Eps: 0.080, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):  46%|████▌     | 184004/400000 [1:20:28<1:57:56, 30.52it/s]
+Overall Ep 484000, Avg R (last 100 ep): -199.55, Eps: 0.077, Drops (last 100 ep): 0.23
+Training SARSA (Augmented Features):  47%|████▋     | 188006/400000 [1:22:20<1:48:55, 32.44it/s]
+Overall Ep 488000, Avg R (last 100 ep): -210.21, Eps: 0.073, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  48%|████▊     | 192007/400000 [1:24:12<1:42:13, 33.91it/s]
+Overall Ep 492000, Avg R (last 100 ep): -186.84, Eps: 0.070, Drops (last 100 ep): 0.23
+Training SARSA (Augmented Features):  49%|████▉     | 196004/400000 [1:25:58<1:38:21, 34.56it/s]
+Overall Ep 496000, Avg R (last 100 ep): -190.97, Eps: 0.066, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  50%|█████     | 200012/400000 [1:27:46<37:46, 88.22it/s]  
+Overall Ep 500000, Avg R (last 100 ep): -182.21, Eps: 0.063, Drops (last 100 ep): 0.24
+Training SARSA (Augmented Features):  51%|█████     | 204003/400000 [1:29:33<1:54:35, 28.51it/s]
+Overall Ep 504000, Avg R (last 100 ep): -218.28, Eps: 0.059, Drops (last 100 ep): 0.11
+Training SARSA (Augmented Features):  52%|█████▏    | 208003/400000 [1:31:27<1:37:53, 32.69it/s]
+Overall Ep 508000, Avg R (last 100 ep): -189.46, Eps: 0.056, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  53%|█████▎    | 212006/400000 [1:33:21<1:30:41, 34.55it/s]
+Overall Ep 512000, Avg R (last 100 ep): -171.49, Eps: 0.052, Drops (last 100 ep): 0.25
+Training SARSA (Augmented Features):  54%|█████▍    | 216002/400000 [1:35:14<1:39:54, 30.70it/s]
+Overall Ep 516000, Avg R (last 100 ep): -213.16, Eps: 0.049, Drops (last 100 ep): 0.07
+Training SARSA (Augmented Features):  55%|█████▌    | 220006/400000 [1:37:06<38:43, 77.47it/s]  
+Overall Ep 520000, Avg R (last 100 ep): -173.58, Eps: 0.045, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  56%|█████▌    | 224005/400000 [1:38:56<1:39:31, 29.47it/s]
+Overall Ep 524000, Avg R (last 100 ep): -189.66, Eps: 0.042, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  57%|█████▋    | 228004/400000 [1:40:48<1:24:41, 33.85it/s]
+Overall Ep 528000, Avg R (last 100 ep): -179.16, Eps: 0.038, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  58%|█████▊    | 232005/400000 [1:42:43<1:30:36, 30.90it/s]
+Overall Ep 532000, Avg R (last 100 ep): -179.00, Eps: 0.035, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  59%|█████▉    | 236012/400000 [1:44:34<38:16, 71.40it/s]  
+Overall Ep 536000, Avg R (last 100 ep): -178.14, Eps: 0.031, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  60%|██████    | 240005/400000 [1:46:24<1:15:06, 35.50it/s]
+Overall Ep 540000, Avg R (last 100 ep): -182.97, Eps: 0.028, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):  61%|██████    | 244004/400000 [1:48:20<1:21:49, 31.77it/s]
+Overall Ep 544000, Avg R (last 100 ep): -188.75, Eps: 0.024, Drops (last 100 ep): 0.13
+Training SARSA (Augmented Features):  62%|██████▏   | 248005/400000 [1:50:15<1:32:46, 27.31it/s]
+Overall Ep 548000, Avg R (last 100 ep): -174.52, Eps: 0.021, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  63%|██████▎   | 252008/400000 [1:52:09<42:03, 58.64it/s]  
+Overall Ep 552000, Avg R (last 100 ep): -174.84, Eps: 0.017, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  64%|██████▍   | 256002/400000 [1:54:05<1:21:52, 29.31it/s]
+Overall Ep 556000, Avg R (last 100 ep): -171.83, Eps: 0.014, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  65%|██████▌   | 260004/400000 [1:55:58<1:12:25, 32.22it/s]
+Overall Ep 560000, Avg R (last 100 ep): -156.94, Eps: 0.010, Drops (last 100 ep): 0.23
+Training SARSA (Augmented Features):  66%|██████▌   | 264003/400000 [1:57:54<1:11:41, 31.61it/s]
+Overall Ep 564000, Avg R (last 100 ep): -177.01, Eps: 0.010, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):  67%|██████▋   | 268005/400000 [1:59:43<1:06:36, 33.02it/s]
+Overall Ep 568000, Avg R (last 100 ep): -187.25, Eps: 0.010, Drops (last 100 ep): 0.09
+Training SARSA (Augmented Features):  68%|██████▊   | 272006/400000 [2:01:36<1:03:19, 33.69it/s]
+Overall Ep 572000, Avg R (last 100 ep): -159.83, Eps: 0.010, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  69%|██████▉   | 276003/400000 [2:03:27<1:06:44, 30.96it/s]
+Overall Ep 576000, Avg R (last 100 ep): -165.80, Eps: 0.010, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  70%|███████   | 280002/400000 [2:05:24<52:29, 38.10it/s]  
+Overall Ep 580000, Avg R (last 100 ep): -161.99, Eps: 0.010, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  71%|███████   | 284001/400000 [2:07:16<55:42, 34.70it/s]  
+Overall Ep 584000, Avg R (last 100 ep): -164.02, Eps: 0.010, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  72%|███████▏  | 288009/400000 [2:09:10<30:20, 61.52it/s]  
+Overall Ep 588000, Avg R (last 100 ep): -189.09, Eps: 0.010, Drops (last 100 ep): 0.09
+Training SARSA (Augmented Features):  73%|███████▎  | 292009/400000 [2:11:02<26:52, 66.96it/s]  
+Overall Ep 592000, Avg R (last 100 ep): -160.35, Eps: 0.010, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  74%|███████▍  | 296010/400000 [2:12:57<30:46, 56.32it/s]  
+Overall Ep 596000, Avg R (last 100 ep): -172.68, Eps: 0.010, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  75%|███████▌  | 300005/400000 [2:14:54<58:03, 28.71it/s]  
+Overall Ep 600000, Avg R (last 100 ep): -184.43, Eps: 0.010, Drops (last 100 ep): 0.11
+Training SARSA (Augmented Features):  76%|███████▌  | 304014/400000 [2:16:48<22:01, 72.63it/s]  
+Overall Ep 604000, Avg R (last 100 ep): -168.73, Eps: 0.010, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  77%|███████▋  | 308005/400000 [2:18:35<54:30, 28.13it/s]  
+Overall Ep 608000, Avg R (last 100 ep): -165.89, Eps: 0.010, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  78%|███████▊  | 312006/400000 [2:20:24<24:14, 60.48it/s]  
+Overall Ep 612000, Avg R (last 100 ep): -173.29, Eps: 0.010, Drops (last 100 ep): 0.16
+Training SARSA (Augmented Features):  79%|███████▉  | 316005/400000 [2:22:17<21:29, 65.14it/s]
+Overall Ep 616000, Avg R (last 100 ep): -158.95, Eps: 0.010, Drops (last 100 ep): 0.22
+Training SARSA (Augmented Features):  80%|████████  | 320011/400000 [2:24:11<19:02, 70.03it/s]
+Overall Ep 620000, Avg R (last 100 ep): -155.33, Eps: 0.010, Drops (last 100 ep): 0.24
+Training SARSA (Augmented Features):  81%|████████  | 324002/400000 [2:26:01<36:43, 34.49it/s]
+Overall Ep 624000, Avg R (last 100 ep): -164.03, Eps: 0.010, Drops (last 100 ep): 0.20
+Training SARSA (Augmented Features):  82%|████████▏ | 328003/400000 [2:27:56<36:03, 33.28it/s]
+Overall Ep 628000, Avg R (last 100 ep): -164.33, Eps: 0.010, Drops (last 100 ep): 0.21
+Training SARSA (Augmented Features):  83%|████████▎ | 332003/400000 [2:29:49<39:45, 28.50it/s]
+Overall Ep 632000, Avg R (last 100 ep): -176.86, Eps: 0.010, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):  84%|████████▍ | 336005/400000 [2:31:44<36:53, 28.91it/s]
+Overall Ep 636000, Avg R (last 100 ep): -156.80, Eps: 0.010, Drops (last 100 ep): 0.23
+Training SARSA (Augmented Features):  85%|████████▌ | 340014/400000 [2:33:39<14:40, 68.16it/s]
+Overall Ep 640000, Avg R (last 100 ep): -170.89, Eps: 0.010, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  86%|████████▌ | 344005/400000 [2:35:25<29:22, 31.77it/s]
+Overall Ep 644000, Avg R (last 100 ep): -167.09, Eps: 0.010, Drops (last 100 ep): 0.19
+Training SARSA (Augmented Features):  87%|████████▋ | 348003/400000 [2:37:18<32:45, 26.45it/s]
+Overall Ep 648000, Avg R (last 100 ep): -182.74, Eps: 0.010, Drops (last 100 ep): 0.11
+Training SARSA (Augmented Features):  88%|████████▊ | 352005/400000 [2:39:10<24:00, 33.33it/s]
+Overall Ep 652000, Avg R (last 100 ep): -177.63, Eps: 0.010, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):  89%|████████▉ | 356000/400000 [2:40:56<13:04, 56.12it/s]
+Overall Ep 656000, Avg R (last 100 ep): -169.33, Eps: 0.010, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  90%|█████████ | 360005/400000 [2:42:51<23:54, 27.89it/s]
+Overall Ep 660000, Avg R (last 100 ep): -192.96, Eps: 0.010, Drops (last 100 ep): 0.07
+Training SARSA (Augmented Features):  91%|█████████ | 364010/400000 [2:44:43<11:00, 54.48it/s]
+Overall Ep 664000, Avg R (last 100 ep): -169.88, Eps: 0.010, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  92%|█████████▏| 368004/400000 [2:46:39<19:04, 27.94it/s]
+Overall Ep 668000, Avg R (last 100 ep): -179.17, Eps: 0.010, Drops (last 100 ep): 0.13
+Training SARSA (Augmented Features):  93%|█████████▎| 372010/400000 [2:48:26<08:54, 52.35it/s]
+Overall Ep 672000, Avg R (last 100 ep): -168.46, Eps: 0.010, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  94%|█████████▍| 376004/400000 [2:50:19<13:11, 30.30it/s]
+Overall Ep 676000, Avg R (last 100 ep): -174.03, Eps: 0.010, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):  95%|█████████▌| 380003/400000 [2:52:13<11:25, 29.19it/s]
+Overall Ep 680000, Avg R (last 100 ep): -178.03, Eps: 0.010, Drops (last 100 ep): 0.14
+Training SARSA (Augmented Features):  96%|█████████▌| 384004/400000 [2:54:06<09:48, 27.18it/s]
+Overall Ep 684000, Avg R (last 100 ep): -166.68, Eps: 0.010, Drops (last 100 ep): 0.18
+Training SARSA (Augmented Features):  97%|█████████▋| 388006/400000 [2:56:02<06:03, 33.03it/s]
+Overall Ep 688000, Avg R (last 100 ep): -168.81, Eps: 0.010, Drops (last 100 ep): 0.17
+Training SARSA (Augmented Features):  98%|█████████▊| 392004/400000 [2:57:55<04:37, 28.85it/s]
+Overall Ep 692000, Avg R (last 100 ep): -173.46, Eps: 0.010, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features):  99%|█████████▉| 396004/400000 [2:59:48<02:15, 29.52it/s]
+Overall Ep 696000, Avg R (last 100 ep): -175.23, Eps: 0.010, Drops (last 100 ep): 0.15
+Training SARSA (Augmented Features): 100%|██████████| 400000/400000 [3:01:42<00:00, 36.69it/s]
+Overall Ep 700000, Avg R (last 100 ep): -183.93, Eps: 0.010, Drops (last 100 ep): 0.11
+Saved weights and logs to files starting with: taxi_sarsa_augmented_700k
+C:\Users\lenovo\anaconda3\lib\site-packages\IPython\core\pylabtools.py:151: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  fig.canvas.print_figure(bytes_io, **kw)
+
+
+=== Taxi-v3: SARSA Policy Rollout (Augmented Features, Alpha=0.001, Total Eps Trained=700000) ===
+
++---------+
+|R: | :T:G|
+| : | : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        0
+State ID:    62 → (row=0, col=3, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -47.14
+  Action North ↑ (1): -55.35
+  Action East  → (2): -75.61
+  Action West  ← (3): -63.10
+  Action Pickup :) (4): -70.01
+  Action Dropoff ⬇ (5): -78.19
+Chosen Action: South ↓ (0)  Q≈-47.14
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | :T: |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        1
+State ID:    162 → (row=1, col=3, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -47.62
+  Action North ↑ (1): -55.46
+  Action East  → (2): -85.08
+  Action West  ← (3): -63.40
+  Action Pickup :) (4): -76.72
+  Action Dropoff ⬇ (5): -78.66
+Chosen Action: South ↓ (0)  Q≈-47.62
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| : : :T: |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        2
+State ID:    262 → (row=2, col=3, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -62.75
+  Action North ↑ (1): -55.89
+  Action East  → (2): -83.38
+  Action West  ← (3): -50.62
+  Action Pickup :) (4): -75.07
+  Action Dropoff ⬇ (5): -76.63
+Chosen Action: West  ← (3)  Q≈-50.62
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| : :T: : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        3
+State ID:    242 → (row=2, col=2, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -53.31
+  Action North ↑ (1): -55.30
+  Action East  → (2): -83.07
+  Action West  ← (3): -50.26
+  Action Pickup :) (4): -72.80
+  Action Dropoff ⬇ (5): -75.13
+Chosen Action: West  ← (3)  Q≈-50.26
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| :T: : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        4
+State ID:    222 → (row=2, col=1, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -53.69
+  Action North ↑ (1): -52.80
+  Action East  → (2): -82.83
+  Action West  ← (3): -50.03
+  Action Pickup :) (4): -74.47
+  Action Dropoff ⬇ (5): -75.85
+Chosen Action: West  ← (3)  Q≈-50.03
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+|T: : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        5
+State ID:    202 → (row=2, col=0, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -43.41
+  Action North ↑ (1): -41.35
+  Action East  → (2): -82.52
+  Action West  ← (3): -52.12
+  Action Pickup :) (4): -73.92
+  Action Dropoff ⬇ (5): -75.04
+Chosen Action: North ↑ (1)  Q≈-41.35
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+|T: | : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        6
+State ID:    102 → (row=1, col=0, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -43.86
+  Action North ↑ (1): -41.14
+  Action East  → (2): -83.19
+  Action West  ← (3): -51.61
+  Action Pickup :) (4): -73.36
+  Action Dropoff ⬇ (5): -78.59
+Chosen Action: North ↑ (1)  Q≈-41.14
+Reward:      -1
+--------------------------------
++---------+
+|T: | : :G|
+| : | : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        7
+State ID:    2 → (row=0, col=0, pass_loc='R (Red)', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -42.27
+  Action North ↑ (1): -52.56
+  Action East  → (2): -77.93
+  Action West  ← (3): -58.26
+  Action Pickup :) (4): -41.61
+  Action Dropoff ⬇ (5): -65.70
+Chosen Action: Pickup :) (4)  Q≈-41.61
+Reward:      -1
+--------------------------------
++---------+
+|T: | : :G|
+| : | : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        8
+State ID:    18 → (row=0, col=0, pass_loc='in Taxi', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -32.91
+  Action North ↑ (1): -55.83
+  Action East  → (2): -69.42
+  Action West  ← (3): -63.73
+  Action Pickup :) (4): -61.63
+  Action Dropoff ⬇ (5): -59.93
+Chosen Action: South ↓ (0)  Q≈-32.91
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+|T: | : : |
+| : : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        9
+State ID:    118 → (row=1, col=0, pass_loc='in Taxi', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -33.05
+  Action North ↑ (1): -41.73
+  Action East  → (2): -65.64
+  Action West  ← (3): -53.11
+  Action Pickup :) (4): -50.28
+  Action Dropoff ⬇ (5): -65.27
+Chosen Action: South ↓ (0)  Q≈-33.05
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+|T: : : : |
+| | : | : |
+|Y| : |B: |
++---------+
+Step:        10
+State ID:    218 → (row=2, col=0, pass_loc='in Taxi', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -32.60
+  Action North ↑ (1): -41.94
+  Action East  → (2): -64.97
+  Action West  ← (3): -53.63
+  Action Pickup :) (4): -50.85
+  Action Dropoff ⬇ (5): -61.72
+Chosen Action: South ↓ (0)  Q≈-32.60
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| : : : : |
+|T| : | : |
+|Y| : |B: |
++---------+
+Step:        11
+State ID:    318 → (row=3, col=0, pass_loc='in Taxi', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): -32.51
+  Action North ↑ (1): -41.97
+  Action East  → (2): -65.15
+  Action West  ← (3): -53.34
+  Action Pickup :) (4): -50.27
+  Action Dropoff ⬇ (5): -63.82
+Chosen Action: South ↓ (0)  Q≈-32.51
+Reward:      -1
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| : : : : |
+| | : | : |
+|T| : |B: |
++---------+
+Step:        12
+State ID:    418 → (row=4, col=0, pass_loc='in Taxi', dest='Y (Yellow)')
+Q-values for current state:
+  Action South ↓ (0): 5.17
+  Action North ↑ (1): -2.15
+  Action East  → (2): -19.12
+  Action West  ← (3): 20.32
+  Action Pickup :) (4): 17.95
+  Action Dropoff ⬇ (5): 20.88
+Chosen Action: Dropoff ⬇ (5)  Q≈20.88
+Reward:      +20
+--------------------------------
++---------+
+|R: | : :G|
+| : | : : |
+| : : : : |
+| | : | : |
+|T| : |B: |
++---------+
+Final State ID: 410 → (row=4, col=0, pass_loc='Y (Yellow)', dest='Y (Yellow)')
+
+Episode finished successfully in 13 steps, total reward 8

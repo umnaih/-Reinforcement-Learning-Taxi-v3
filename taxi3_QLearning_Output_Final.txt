@@ -1,0 +1,236 @@
+Starting Q-Learning training for 50000 episodes...
+Params: alpha=0.1, gamma=0.99, eps_initial=1.0, eps_min=0.01, eps_decay=0.9999
+Training Q-Learning:   5%|▌         | 2556/50000 [00:20<02:03, 385.40it/s]
+Ep 2500/50000, Avg Rew (last 100): -233.94, Eps: 0.779, Success (last 100): 0.99
+Training Q-Learning:  10%|█         | 5039/50000 [00:29<02:11, 342.88it/s]
+Ep 5000/50000, Avg Rew (last 100): -87.49, Eps: 0.607, Success (last 100): 1.00
+Training Q-Learning:  16%|█▌        | 7806/50000 [00:34<00:39, 1064.07it/s]
+Ep 7500/50000, Avg Rew (last 100): -46.79, Eps: 0.472, Success (last 100): 1.00
+Training Q-Learning:  21%|██        | 10308/50000 [00:36<00:26, 1482.34it/s]
+Ep 10000/50000, Avg Rew (last 100): -25.17, Eps: 0.368, Success (last 100): 1.00
+Training Q-Learning:  25%|██▌       | 12638/50000 [00:38<00:32, 1161.42it/s]
+Ep 12500/50000, Avg Rew (last 100): -13.14, Eps: 0.286, Success (last 100): 1.00
+Training Q-Learning:  30%|███       | 15159/50000 [00:41<00:43, 793.19it/s] 
+Ep 15000/50000, Avg Rew (last 100): -6.59, Eps: 0.223, Success (last 100): 1.00
+Training Q-Learning:  35%|███▌      | 17579/50000 [00:44<00:37, 869.34it/s]
+Ep 17500/50000, Avg Rew (last 100): -1.24, Eps: 0.174, Success (last 100): 1.00
+Training Q-Learning:  40%|████      | 20142/50000 [00:47<00:39, 762.36it/s]
+Ep 20000/50000, Avg Rew (last 100): 0.40, Eps: 0.135, Success (last 100): 1.00
+Training Q-Learning:  45%|████▌     | 22693/50000 [00:50<00:29, 917.96it/s]
+Ep 22500/50000, Avg Rew (last 100): 3.51, Eps: 0.105, Success (last 100): 1.00
+Training Q-Learning:  51%|█████     | 25402/50000 [00:52<00:11, 2199.00it/s]
+Ep 25000/50000, Avg Rew (last 100): 3.31, Eps: 0.082, Success (last 100): 1.00
+Training Q-Learning:  56%|█████▌    | 27941/50000 [00:53<00:10, 2044.45it/s]
+Ep 27500/50000, Avg Rew (last 100): 3.17, Eps: 0.064, Success (last 100): 1.00
+Training Q-Learning:  61%|██████    | 30409/50000 [00:54<00:09, 2101.01it/s]
+Ep 30000/50000, Avg Rew (last 100): 5.79, Eps: 0.050, Success (last 100): 1.00
+Training Q-Learning:  66%|██████▌   | 32861/50000 [00:55<00:07, 2301.46it/s]
+Ep 32500/50000, Avg Rew (last 100): 6.46, Eps: 0.039, Success (last 100): 1.00
+Training Q-Learning:  71%|███████   | 35258/50000 [00:57<00:12, 1154.49it/s]
+Ep 35000/50000, Avg Rew (last 100): 7.08, Eps: 0.030, Success (last 100): 1.00
+Training Q-Learning:  75%|███████▌  | 37707/50000 [00:59<00:12, 1017.45it/s]
+Ep 37500/50000, Avg Rew (last 100): 6.43, Eps: 0.024, Success (last 100): 1.00
+Training Q-Learning:  80%|████████  | 40117/50000 [01:01<00:09, 1070.01it/s]
+Ep 40000/50000, Avg Rew (last 100): 6.86, Eps: 0.018, Success (last 100): 1.00
+Training Q-Learning:  85%|████████▌ | 42726/50000 [01:04<00:06, 1097.91it/s]
+Ep 42500/50000, Avg Rew (last 100): 7.05, Eps: 0.014, Success (last 100): 1.00
+Training Q-Learning:  90%|█████████ | 45168/50000 [01:06<00:04, 1076.06it/s]
+Ep 45000/50000, Avg Rew (last 100): 7.51, Eps: 0.011, Success (last 100): 1.00
+Training Q-Learning:  96%|█████████▌| 47992/50000 [01:09<00:01, 1821.24it/s]
+Ep 47500/50000, Avg Rew (last 100): 7.15, Eps: 0.010, Success (last 100): 1.00
+Training Q-Learning: 100%|██████████| 50000/50000 [01:09<00:00, 715.06it/s] 
+Ep 50000/50000, Avg Rew (last 100): 7.74, Eps: 0.010, Success (last 100): 1.00
+Q-Learning Training Time: 69.93 seconds
+
+
+--- Evaluating Final Q-Learning Policy for 1000 episodes ---
+Evaluating Q-Learning Policy: 100%|██████████| 1000/1000 [00:00<00:00, 4132.28it/s]
+--- Q-Learning Policy Evaluation Results ---
+Average Reward: 7.97 +/- 2.63
+Average Steps: 13.03 +/- 2.63
+Success Rate: 100.00%
+
+--- Q-Learning Metrics Summary ---
+Algorithm: Q-Learning (Tabular)
+Training Time (s): 69.93
+Hyperparameters: alpha=0.1, gamma=0.99, eps_decay=0.9999, episodes=50000
+Avg Reward per Ep (Learning Curve End): 7.74
+Steps per Ep (Learning Curve End): 12.90
+Success Rate (Learning Curve End %): 100.00
+Convergence Speed (approx. episodes to >80% success): Observe from plot
+Final Policy - Avg Reward: 7.97 ± 2.63
+Final Policy - Avg Steps: 13.03 ± 2.63
+Final Policy - Success Rate (%): 100.00
+
+--- Simulating one episode with the Q-Learning policy ---
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : | 
+| | : T : | 
+|Y| : |B: | 
++---------+ 
+Step: 0, State ID: 341 → (row=3, col=2, pass_loc=R (Red), dest=G (Green))
+Action: North ↑ (1), Q-vals for this state: [ 1.73348219  4.24949753  3.1266996   4.20730322 -5.81875125 -5.86048825]
+Reward: -1, Total Reward: -1
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : T : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 1, State ID: 241 → (row=2, col=2, pass_loc=R (Red), dest=G (Green))
+Action: West ← (3), Q-vals for this state: [ 3.20700079  3.20698984  3.20700196  5.30252276 -4.75050718 -4.75050258]
+Reward: -1, Total Reward: -2
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| :T: : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 2, State ID: 221 → (row=2, col=1, pass_loc=R (Red), dest=G (Green))
+Action: North ↑ (1), Q-vals for this state: [ 4.2494972   6.36618461  4.24949455  6.3661819  -3.69747747 -3.6974783 ]
+Reward: -1, Total Reward: -3
+------------------------------
++---------+ 
+|R: | : :G| 
+| :T| : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 3, State ID: 121 → (row=1, col=1, pass_loc=R (Red), dest=G (Green))
+Action: West ← (3), Q-vals for this state: [ 5.30252248  7.44059022  6.36618452  7.44059051 -2.63381614 -2.63381565]
+Reward: -1, Total Reward: -4
+------------------------------
++---------+ 
+|R: | : :G| 
+|T: | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 4, State ID: 101 → (row=1, col=0, pass_loc=R (Red), dest=G (Green))
+Action: North ↑ (1), Q-vals for this state: [ 6.36618457  8.525849    6.36618461  7.44059051 -1.55940949 -1.55940949]
+Reward: -1, Total Reward: -5
+------------------------------
++---------+ 
+|T: | : :G| 
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 5, State ID: 1 → (row=0, col=0, pass_loc=R (Red), dest=G (Green))
+Action: Pickup :) (4), Q-vals for this state: [ 7.44059051  8.525849    7.44059051  8.525849    9.6220697  -0.474151  ]
+Reward: -1, Total Reward: -6
+------------------------------
++---------+ 
+|T: | : :G| 
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 6, State ID: 17 → (row=0, col=0, pass_loc=In Taxi, dest=G (Green))
+Action: South ↓ (0), Q-vals for this state: [10.72936333  9.6220697  10.72936333  9.6220697   0.6220697   8.52584899]
+Reward: -1, Total Reward: -7
+------------------------------
++---------+ 
+|R: | : :G| 
+|T: | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 7, State ID: 117 → (row=1, col=0, pass_loc=In Taxi, dest=G (Green))
+Action: South ↓ (0), Q-vals for this state: [11.84784175  9.6220697  11.84784175 10.72936333  1.72936333  1.72936333]
+Reward: -1, Total Reward: -8
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+|T: : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 8, State ID: 217 → (row=2, col=0, pass_loc=In Taxi, dest=G (Green))
+Action: East → (2), Q-vals for this state: [10.72936333 10.72936333 12.97761793 11.84784175  2.84784175  2.84784175]
+Reward: -1, Total Reward: -9
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| :T: : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 9, State ID: 237 → (row=2, col=1, pass_loc=In Taxi, dest=G (Green))
+Action: East → (2), Q-vals for this state: [11.84784175 11.84784175 14.11880599 11.84784175  3.97761793  3.97761793]
+Reward: -1, Total Reward: -10
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : T : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 10, State ID: 257 → (row=2, col=2, pass_loc=In Taxi, dest=G (Green))
+Action: North ↑ (1), Q-vals for this state: [12.97761793 15.2715212  15.2715212  12.97761793  5.11880599  5.11880599]
+Reward: -1, Total Reward: -11
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | T : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 11, State ID: 157 → (row=1, col=2, pass_loc=In Taxi, dest=G (Green))
+Action: North ↑ (1), Q-vals for this state: [14.11880599 16.43588    16.43588    15.2715212   6.2715212   6.2715212 ]
+Reward: -1, Total Reward: -12
+------------------------------
++---------+ 
+|R: | T :G| 
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 12, State ID: 57 → (row=0, col=2, pass_loc=In Taxi, dest=G (Green))
+Action: East → (2), Q-vals for this state: [15.27152061 16.43587993 17.612      16.43587942  7.43587962  7.43587989]
+Reward: -1, Total Reward: -13
+------------------------------
++---------+ 
+|R: | : :T| 
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 13, State ID: 77 → (row=0, col=3, pass_loc=In Taxi, dest=G (Green))
+Action: East → (2), Q-vals for this state: [16.43588 17.612   18.8     16.43588  8.612    8.612  ]
+Reward: -1, Total Reward: -14
+------------------------------
++---------+ 
+|R: | : :G|T
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 14, State ID: 97 → (row=0, col=4, pass_loc=In Taxi, dest=G (Green))
+Action: Dropoff ⬇ (5), Q-vals for this state: [17.612 18.8   18.8   17.612  9.8   20.   ]
+Reward: 20, Total Reward: 6
+------------------------------
+
+Q-Learning Simulation finished in 15 steps with total reward: 6
+Successful Dropoff in Q-Learning simulation!
+
+Attempting to save Q-table...
+Full Q-table has been saved to 'q_table_final_output.txt'

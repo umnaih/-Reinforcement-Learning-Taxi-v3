@@ -1,0 +1,188 @@
+--- Starting Policy Iteration ---
+Policy Iteration: Iteration 1 complete. Policy stable: False
+Policy Iteration: Iteration 2 complete. Policy stable: False
+Policy Iteration: Iteration 3 complete. Policy stable: False
+Policy Iteration: Iteration 4 complete. Policy stable: False
+Policy Iteration: Iteration 5 complete. Policy stable: False
+Policy Iteration: Iteration 6 complete. Policy stable: False
+Policy Iteration: Iteration 7 complete. Policy stable: False
+Policy Iteration: Iteration 8 complete. Policy stable: False
+Policy Iteration: Iteration 9 complete. Policy stable: False
+Policy Iteration: Iteration 10 complete. Policy stable: False
+Policy Iteration: Iteration 11 complete. Policy stable: False
+Policy Iteration: Iteration 12 complete. Policy stable: False
+Policy Iteration: Iteration 13 complete. Policy stable: False
+Policy Iteration: Iteration 14 complete. Policy stable: False
+Policy Iteration: Iteration 15 complete. Policy stable: False
+Policy Iteration: Iteration 16 complete. Policy stable: False
+Policy Iteration: Iteration 17 complete. Policy stable: True
+
+Policy converged at iteration 17
+Policy Iteration Training Time: 3.0774 seconds
+Policy Iteration Converged in: 17 iterations
+
+--- Evaluating Final Policy for 1000 episodes ---
+Evaluating Policy: 100%|██████████| 1000/1000 [00:00<00:00, 1612.84it/s]
+--- Evaluation Results ---
+Average Reward: 7.72 +/- 2.56
+Average Steps: 13.28 +/- 2.56
+Success Rate: 100.00%
+
+--- Policy Iteration Metrics Summary ---
+Algorithm: Policy Iteration
+Iterations to Converge: 17
+Training Time (s): 3.0773661136627197
+Final Policy - Avg Reward: 7.72 ± 2.56
+Final Policy - Avg Steps: 13.28 ± 2.56
+Final Policy - Success Rate (%): 100.00
+Avg Reward per Ep (Learning Curve): N/A (Model-based)
+Steps per Ep (Learning Curve): N/A (Model-based)
+Success Rate (Learning Curve): N/A (Model-based)
+
+--- Simulating one episode with the optimal policy ---
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : | 
+| | : | : |T
+|Y| : |B: | 
++---------+ 
+Step: 0, State ID: 386 → (row=3, col=4, pass_loc=G (Green), dest=Y (Yellow))
+Action: North ↑ (1), Value Estimate: 835.38
+Reward: -1, Total Reward: -1
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : |T
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 1, State ID: 286 → (row=2, col=4, pass_loc=G (Green), dest=Y (Yellow))
+Action: North ↑ (1), Value Estimate: 844.83
+Reward: -1, Total Reward: -2
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : |T
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 2, State ID: 186 → (row=1, col=4, pass_loc=G (Green), dest=Y (Yellow))
+Action: North ↑ (1), Value Estimate: 854.37
+Reward: -1, Total Reward: -3
+------------------------------
++---------+ 
+|R: | : :G|T
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 3, State ID: 86 → (row=0, col=4, pass_loc=G (Green), dest=Y (Yellow))
+Action: Pickup :) (4), Value Estimate: 864.01
+Reward: -1, Total Reward: -4
+------------------------------
++---------+ 
+|R: | : :G|T
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 4, State ID: 98 → (row=0, col=4, pass_loc=In Taxi, dest=Y (Yellow))
+Action: South ↓ (0), Value Estimate: 873.75
+Reward: -1, Total Reward: -5
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : |T
+| : : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 5, State ID: 198 → (row=1, col=4, pass_loc=In Taxi, dest=Y (Yellow))
+Action: South ↓ (0), Value Estimate: 883.59
+Reward: -1, Total Reward: -6
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : |T
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 6, State ID: 298 → (row=2, col=4, pass_loc=In Taxi, dest=Y (Yellow))
+Action: West ← (3), Value Estimate: 893.52
+Reward: -1, Total Reward: -7
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : :T| 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 7, State ID: 278 → (row=2, col=3, pass_loc=In Taxi, dest=Y (Yellow))
+Action: West ← (3), Value Estimate: 903.56
+Reward: -1, Total Reward: -8
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : T : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 8, State ID: 258 → (row=2, col=2, pass_loc=In Taxi, dest=Y (Yellow))
+Action: West ← (3), Value Estimate: 913.69
+Reward: -1, Total Reward: -9
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| :T: : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 9, State ID: 238 → (row=2, col=1, pass_loc=In Taxi, dest=Y (Yellow))
+Action: West ← (3), Value Estimate: 923.93
+Reward: -1, Total Reward: -10
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+|T: : : : | 
+| | : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 10, State ID: 218 → (row=2, col=0, pass_loc=In Taxi, dest=Y (Yellow))
+Action: South ↓ (0), Value Estimate: 934.28
+Reward: -1, Total Reward: -11
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : | 
+|T| : | : | 
+|Y| : |B: | 
++---------+ 
+Step: 11, State ID: 318 → (row=3, col=0, pass_loc=In Taxi, dest=Y (Yellow))
+Action: South ↓ (0), Value Estimate: 944.72
+Reward: -1, Total Reward: -12
+------------------------------
++---------+ 
+|R: | : :G| 
+| : | : : | 
+| : : : : | 
+| | : | : | 
+|T| : |B: | 
++---------+ 
+Step: 12, State ID: 418 → (row=4, col=0, pass_loc=In Taxi, dest=Y (Yellow))
+Action: Dropoff ⬇ (5), Value Estimate: 955.28
+Reward: 20, Total Reward: 8
+------------------------------
+
+Simulation finished in 13 steps with total reward: 8
+Successful Dropoff in simulation!
